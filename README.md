@@ -59,4 +59,4 @@ The recorded training cost was 1,958,400 objective evaluations. Break-even figur
 
 ## Publication and reuse
 
-This is supporting material for a manuscript being prepared for submission to *Drones*. No acceptance or publication is claimed. No software/data reuse license has been selected by the authors yet; no additional license grant is implied by repository visibility. Author metadata and a versioned repository citation will be added when finalized.
+This is supporting material for a manuscript being prepared for submission to *journal*. No acceptance or publication is claimed. No software/data reuse license has been selected by the authors yet; no additional license grant is implied by repository visibility. Author metadata and a versioned repository citation will be added when finalized.
