@@ -59,4 +59,6 @@ The recorded training cost was 1,958,400 objective evaluations. Break-even figur
 
 ## Publication and reuse
 
-This is supporting material for a manuscript being prepared for submission to *journal*. No acceptance or publication is claimed. No software/data reuse license has been selected by the authors yet; no additional license grant is implied by repository visibility. Author metadata and a versioned repository citation will be added when finalized.
+This is supporting material for a manuscript being prepared for journal submission. No acceptance or publication is claimed.
+
+Code is released under the MIT License and data under CC BY 4.0. See [LICENSE](LICENSE), [LICENSE-DATA.txt](LICENSE-DATA.txt), and [LICENSING.md](LICENSING.md) for license texts, scope, and data attribution.
