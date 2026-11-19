@@ -1,0 +1,118 @@
+{
+  "scope": "Post-hoc roll-only analysis of frozen eight-gain controllers; no optimization or model retraining",
+  "planned": 300,
+  "hardware": [
+    {
+      "method": "ordinary",
+      "valid": 58,
+      "complete": 28,
+      "pass_sets": 25,
+      "pass_scenarios": 54,
+      "median_rise_s": 0.06209150000358932,
+      "median_settling_s": 0.3694432500340045,
+      "median_overshoot_pct": 4.172952241224415,
+      "median_final_error_pct": 0.0023573386158909177
+    },
+    {
+      "method": "predictions",
+      "valid": 60,
+      "complete": 30,
+      "pass_sets": 29,
+      "pass_scenarios": 58,
+      "median_rise_s": 0.06981650000670925,
+      "median_settling_s": 0.30690667503140867,
+      "median_overshoot_pct": 3.780013284943018,
+      "median_final_error_pct": 0.0017976040971998952
+    },
+    {
+      "method": "library",
+      "valid": 60,
+      "complete": 30,
+      "pass_sets": 29,
+      "pass_scenarios": 59,
+      "median_rise_s": 0.0685753500147257,
+      "median_settling_s": 0.3154741999731633,
+      "median_overshoot_pct": 3.5950578332675898,
+      "median_final_error_pct": 0.0008172381377730105
+    },
+    {
+      "method": "hybrid",
+      "valid": 60,
+      "complete": 30,
+      "pass_sets": 30,
+      "pass_scenarios": 60,
+      "median_rise_s": 0.07297239999752492,
+      "median_settling_s": 0.3077276000237325,
+      "median_overshoot_pct": 3.5698867911199916,
+      "median_final_error_pct": 0.001290044205006677
+    },
+    {
+      "method": "reference",
+      "valid": 59,
+      "complete": 29,
+      "pass_sets": 28,
+      "pass_scenarios": 58,
+      "median_rise_s": 0.05995409999741241,
+      "median_settling_s": 0.40091130003752184,
+      "median_overshoot_pct": 5.89866181351959,
+      "median_final_error_pct": 0.002691655908974453
+    }
+  ],
+  "software": [
+    {
+      "method": "ordinary",
+      "valid": 60,
+      "complete": 30,
+      "pass_sets": 30,
+      "pass_scenarios": 60,
+      "median_rise_s": 0.07199999999999998,
+      "median_settling_s": 0.1975,
+      "median_overshoot_pct": 0.9102174226034432,
+      "median_final_error_pct": 0.0023856738333676154
+    },
+    {
+      "method": "predictions",
+      "valid": 60,
+      "complete": 30,
+      "pass_sets": 30,
+      "pass_scenarios": 60,
+      "median_rise_s": 0.07899999999999999,
+      "median_settling_s": 0.16199999999999998,
+      "median_overshoot_pct": 1.1164324366079725,
+      "median_final_error_pct": 0.001937884820938296
+    },
+    {
+      "method": "library",
+      "valid": 60,
+      "complete": 30,
+      "pass_sets": 30,
+      "pass_scenarios": 60,
+      "median_rise_s": 0.07799999999999999,
+      "median_settling_s": 0.1795,
+      "median_overshoot_pct": 1.126894864172101,
+      "median_final_error_pct": 0.0011393466490723495
+    },
+    {
+      "method": "hybrid",
+      "valid": 60,
+      "complete": 30,
+      "pass_sets": 30,
+      "pass_scenarios": 60,
+      "median_rise_s": 0.08199999999999999,
+      "median_settling_s": 0.16049999999999998,
+      "median_overshoot_pct": 1.0569711050022246,
+      "median_final_error_pct": 0.0019524019274912196
+    },
+    {
+      "method": "reference",
+      "valid": 60,
+      "complete": 30,
+      "pass_sets": 30,
+      "pass_scenarios": 60,
+      "median_rise_s": 0.06899999999999998,
+      "median_settling_s": 0.194,
+      "median_overshoot_pct": 1.365918407977884,
+      "median_final_error_pct": 0.004119259314653061
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+from pathlib import Path
+import json,numpy as np,matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+R=Path(__file__).resolve().parents[1];D=R/'results/hardware_validation_20261116T133818Z'
+report=json.loads((D/'response_analysis.json').read_text());fig,axes=plt.subplots(3,2,figsize=(11,9),layout='constrained')
+for ax,r in zip(axes.flat,report['results']):
+ rows=[json.loads(s) for s in (D/(r['id']+'.jsonl')).read_text().splitlines()];states=[v for v in rows if 'state'in v];packets=[v for v in rows if 'tick'in v]
+ t=np.array([v['host_elapsed_s'] for v in states]);x=np.array([v['state'] for v in states]);w,b,c,z=x[:,:4].T
+ ys=[np.arctan2(2*(w*b+c*z),1-2*(b*b+c*c)),np.arcsin(np.clip(2*(w*c-b*z),-1,1)),x[:,6]];axis=r['axis'];y=np.rad2deg(ys[axis]);step=.2+np.median([v['host_elapsed_s']-.001*v['tick'] for v in packets]);t-=step
+ ax.plot(t,y,label='Hardware controller + simulated plant',lw=1.1);ax.plot(t,np.where(t>=0,r['target_degrees'],0),'--',label='Command',lw=1)
+ ax.set(title=('Roll','Pitch','Yaw rate')[axis]+f" {r['target_degrees']:g}" ,xlabel='Time after step (s)',ylabel='deg/s' if axis==2 else 'deg');ax.grid(alpha=.25)
+axes.flat[0].legend(fontsize=7);fig.suptitle('One frozen Ordinary PSO controller: six-command hardware pilot\nIdeal-state feedback; asynchronous USB; not the full method comparison',fontsize=12)
+fig.savefig(R/'reports/saved_controller_pilot.png',dpi=160);fig.savefig(R/'reports/saved_controller_pilot.pdf');plt.close(fig)
+trs=''.join(f"<tr><td>{('Roll','Pitch','Yaw rate')[v['axis']]}</td><td>{v['target_degrees']:g}</td><td>{v['final_degrees']:.6f}</td><td>{v['final_error_percent']:.4f}%</td><td>{v['overshoot_percent']:.2f}%</td><td>{v['settling_2pct_s']:.3f}</td></tr>" for v in report['results'])
+html='''<!doctype html><meta charset="utf-8"><title>Saved-controller HIL pilot</title><style>body{font:17px system-ui;max-width:1100px;margin:35px auto;line-height:1.5;color:#173340}table{border-collapse:collapse;width:100%}td,th{padding:10px;border:1px solid #bbc}img{width:100%}.note{background:#fff3d3;padding:18px}</style><h1>Saved-controller HIL pilot</h1><p>16 November 2026. Physical PX4 FMUv6C executes the paper controller; Python simulates the rotational plant. Board remains disarmed. One Ordinary PSO controller (Drone 31, seed 48001), six single-axis commands.</p><p class="note"><b>Completed: six-command pilot. Incomplete: 900-scenario comparison.</b> The full cohort stopped after two scenarios because a host interval exceeded 20 ms. Follow-up timing failures remain unresolved. No hardware optimization-saving or method-superiority claim is supported.</p><img src="saved_controller_pilot.png"><table><tr><th>Axis</th><th>Target</th><th>Final response</th><th>Final error</th><th>Overshoot</th><th>2% settling (s)</th></tr>'''+trs+'''</table><p>Roll/pitch values are degrees; yaw values are degrees/second. Settling uses a 2% band with at least 0.25 s final hold. Timing alignment is estimated from board ticks and receive timestamps. Pilot maximum host intervals ranged 5.10–19.83 ms; maximum controller lateness was 2.58 ms. These are descriptive pilot metrics, not the paper's complete feasibility or paired-reference criteria.</p><p>All six trials completed 3,201 board controller steps. Raw traces and response_analysis.json are retained in results/hardware_validation_20261116T133818Z. Failed attempts remain separately recorded. Controller gains were neither trained nor retuned on these outcomes.</p>'''
+(R/'reports/Saved_Controller_HIL_Pilot.html').write_text(html,encoding='utf-8')
+print(R/'reports/Saved_Controller_HIL_Pilot.html')

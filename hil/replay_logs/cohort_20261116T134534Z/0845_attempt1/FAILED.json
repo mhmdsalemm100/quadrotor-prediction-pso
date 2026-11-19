@@ -1,0 +1,8 @@
+{
+  "index": 845,
+  "id": "Drone_40_48002_ordinary_axis2_100",
+  "attempt": 1,
+  "directory": "0845_attempt1",
+  "status": "infrastructure_failure",
+  "error": "Host integration gap 0.027212 s >20 ms"
+}

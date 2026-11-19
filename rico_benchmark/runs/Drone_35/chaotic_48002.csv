@@ -1,0 +1,2 @@
+method,plant,seed,best_cost,passed,evaluations,optimizer_seconds,validation_seconds,roll_outer_K,roll_inner_Kp_equivalent,roll_inner_Ki_equivalent,pitch_outer_K,pitch_inner_Kp_equivalent,pitch_inner_Ki_equivalent,yaw_Kp,yaw_Ki
+chaotic,Drone_35,48002,0.06004638232142937,False,1800,24.645967999998902,0.8835952999997971,11.162176215522006,0.07479179053703038,0.016779327946757433,10.460010151004202,0.07674809446437929,0.0356292945865006,0.36697664801917546,0.06026879801782972

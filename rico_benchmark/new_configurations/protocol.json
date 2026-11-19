@@ -1,0 +1,87 @@
+{
+  "seeds": [
+    590101,
+    590102,
+    590103
+  ],
+  "design_seed": 2026111902,
+  "rejected_design_seeds": [
+    2026111901
+  ],
+  "normalized_min_distance": 0.05,
+  "nearest_old_distances": [
+    0.22558164694488447,
+    0.18729276613730755,
+    0.1870649209920689,
+    0.0921264457557622,
+    0.1276838789274359,
+    0.06061252592336171,
+    0.26350807349294875,
+    0.1857908253606956,
+    0.0960029974753274,
+    0.1679093875853441
+  ],
+  "minimum_between_new": 0.23324682795019738,
+  "bounds": [
+    [
+      0.85,
+      0.014,
+      0.9
+    ],
+    [
+      1.15,
+      0.026000000000000002,
+      1.1
+    ]
+  ],
+  "frozen_hashes": {
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\model.py": "12d97aa315326c919b79b7040a178bcf5c84fc1bcf3f2e133b17ffee84104be6",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\study.py": "65bad488f08fc5d74dc9244399b540dcb10f8fb0070ea396e0276757ad18ab1c",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\pipeline.py": "8b15183b37f2657cae2dac95f889a976e24be0292858a5c68d31f9491511e74c",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\config.json": "c3c4f4deb03aa1eac33eabf148b136c9c2e34c4c7bec62c2729d8f3c3e662205",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\contract.json": "a203c75c9060e3e979d4907111ca80b6e4936c2426640512abc8d6f3424b52df",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\plants.json": "29ed55b3cb3620ec39fe631afde6a1b14abebee909e114e5ee824870b90eb358",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\inputs.json": "69223f8a746134f1713ca0e40107264f575c72c278f17a685b2c0c522b027a22",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\protocol.json": "22b82ae0398afad84c8665a51735b3c711b5de7f631a7b86a2f79a2968954bd9",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\offline_costs.json": "8af20af77ea029ee8bd135dc9f60cb4b4894cde19db971726b2f356c7f8c595b",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\models\\elite_medoid__nn_regularized.joblib": "169c7009e5af334c403d38f107128a1f6f771f6bdece832200f685307ddd8393",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\models\\elite_medoid__gp.joblib": "5365172427d24092034cf9cec526d54a3549198e11fe6c64f14cce28e3caae4e",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_31\\reference_48001.json": "36bdd3cd6f0583429b968ca64be5a208975d8ba15b6b64395f67ab7581832d14",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_31\\reference_48002.json": "cad7579ca2f18ca6f34443e0f0b69fa1c61c67a7d29faa9e6ae69fc5d8254c94",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_31\\reference_48003.json": "722574ca585d6eb85537435d3d7f72c0a614cc6222451cfc517c9d4ed9463aa9",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_32\\reference_48001.json": "15749b0c5d8b5a5b483d0d134a4094ac6d5fe88d80de650f284ec968650ecd88",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_32\\reference_48002.json": "51e04465dde96601a1129892a7242fcc207d281e5376acdd2ac25e1da0ae955b",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_32\\reference_48003.json": "8b680cb17e0df4d3b7dca0e8ecd381e846a03b4441af808e5f48cb5a1ba57026",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_33\\reference_48001.json": "dc62106c6a0c1244f4d450532f32a407da1ad023780ff9d4a125da9565f929e0",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_33\\reference_48002.json": "c43e67183e3ebf646c25fc15bec47619bf427735c6247159b8983f2195af3843",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_33\\reference_48003.json": "d797b7b4148a4c2d802395ee6f2b2d523411fdad22d48dcd840f0bda469aef55",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_34\\reference_48001.json": "c23a084e962cedb9242779cdaf12f10b920e1e105523f3524a9e74292f6fa1cb",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_34\\reference_48002.json": "5a4c5fb49a709186e9a814d662c0413691cc477381f5a714faa391560c29d105",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_34\\reference_48003.json": "ec8d2a2baffd2c9cbffb7e2ac49720a03694eb1f6dfe623e557985ac9d1937c7",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_35\\reference_48001.json": "92c1b814ed79679e42eca51969141cd11cb1825802da69e6a3f58ed9ede8a3bd",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_35\\reference_48002.json": "3fb6b7b5ecc1211e66f3611ac8313af713b9a588597bee2c9cafdc4a2bd5fb3a",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_35\\reference_48003.json": "cfd406c3c10f5d26b2fab7dc9f26f22fa83484de2195cd9cf0a2e7ca789b6025",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_36\\reference_48001.json": "f6711f74295321566d9fd935c2ee29e624524fde1f73f4cf5254c48d2d8b3bf9",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_36\\reference_48002.json": "d91bffaf718806ac0bdc64bf92d939edac777984815016ad4f8685d8029c5df4",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_36\\reference_48003.json": "fa1b1e2a4282c9f419db949c35710b4ba4562812572b123ccc8a3ae5046303fb",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_37\\reference_48001.json": "98c43fc35194d685ccd343c3ddfe199dcf964953c72d96ff68c2a6bb35b2d1e1",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_37\\reference_48002.json": "c3c4f335f8b4bff4f7b7127a3344f9e186879bdaaa21e8a200b07e1ad00a55ae",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_37\\reference_48003.json": "eff266543be7d2683e3f9d2349f25c22754e785cd155a28673046b2635681865",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_38\\reference_48001.json": "614a26b4a6104a3d452a875d5902ef88f0d06608eb1d26063c000484910560d6",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_38\\reference_48002.json": "ddcd09189f673e3db43de8eeb676b030ebff8cd23325341e6457aba43ad4757d",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_38\\reference_48003.json": "fee4265cf54726f77e6fc823826cb8d40aed36537be80250f690a88dfefb4e9c",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_39\\reference_48001.json": "7efcf708a56bb154d5832c890001cd579c37797b35fcb13ec6c9bf509ef597d1",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_39\\reference_48002.json": "2f08b078c80d30b1b9820e9b806aa6887dcd645a2f12c6185cf5017551909422",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_39\\reference_48003.json": "5605373c885c986aae307e2f44216ecab8563ae1bb183a5bd0e5857236d8e0df",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_40\\reference_48001.json": "948838f73e86810dfd6628cd4e59446cf2bbbe40721d8eb5b1db61e043ac3f9c",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_40\\reference_48002.json": "06a1465e2373392ab8fc4712bc2c0df930f601b1b4a86a5c27ed065d931d72ee",
+    "USER_HOME\\Desktop\\Quadrotor_PSO_Fresh_Study\\neural network by python\\final_unseen_1800\\Drone_40\\reference_48003.json": "e88f5f3df51141dfacb7703d672b5f8ee1ea54d3343d09a3b558779356369643",
+    "WORKSPACE\\RICO_extension\\study_extension.py": "93136462202f5a7b609207759ce80aac487f29034c03e801407aac7e2c13ce88"
+  },
+  "reference_budget": 3264,
+  "short_budget": 1800,
+  "reference_runs": 30,
+  "benchmark_runs": 210,
+  "proximity_rule": "Reject complete LHS designs solely on geometry before any controller outcomes; minimum Euclidean distance .05 after scaling each factor by its original range.",
+  "seed_check": "No overlap with seed fields in archived study and benchmark JSON files"
+}

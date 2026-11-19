@@ -1,0 +1,117 @@
+[
+  {
+    "method": "hybrid",
+    "comparator": "ordinary",
+    "plant_mean_differences": [
+      0.0,
+      0.0,
+      0.3333333333333333,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.3333333333333333
+    ],
+    "difference_pp": 30.0,
+    "cluster_sign_flip_p": 0.03125,
+    "bootstrap95_pp": [
+      13.333333333333334,
+      50.0
+    ],
+    "inference": "Post-hoc exact whole-plant label-swap sensitivity analysis; requires exchangeability under the null. Only hybrid-ordinary contrast was prespecified."
+  },
+  {
+    "method": "predictions",
+    "comparator": "ordinary",
+    "plant_mean_differences": [
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0
+    ],
+    "difference_pp": 29.999999999999993,
+    "cluster_sign_flip_p": 0.015625,
+    "bootstrap95_pp": [
+      16.666666666666664,
+      43.33333333333333
+    ],
+    "inference": "Post-hoc exact whole-plant label-swap sensitivity analysis; requires exchangeability under the null. Only hybrid-ordinary contrast was prespecified."
+  },
+  {
+    "method": "library",
+    "comparator": "ordinary",
+    "plant_mean_differences": [
+      -0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "difference_pp": 20.0,
+    "cluster_sign_flip_p": 0.15625,
+    "bootstrap95_pp": [
+      0.0,
+      40.0
+    ],
+    "inference": "Post-hoc exact whole-plant label-swap sensitivity analysis; requires exchangeability under the null. Only hybrid-ordinary contrast was prespecified."
+  },
+  {
+    "method": "hybrid",
+    "comparator": "predictions",
+    "plant_mean_differences": [
+      -0.3333333333333333,
+      0.0,
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      -0.3333333333333333,
+      -0.3333333333333333,
+      0.0,
+      0.0,
+      0.3333333333333333
+    ],
+    "difference_pp": 0.0,
+    "cluster_sign_flip_p": 1.0,
+    "bootstrap95_pp": [
+      -16.666666666666664,
+      16.666666666666664
+    ],
+    "inference": "Post-hoc exact whole-plant label-swap sensitivity analysis; requires exchangeability under the null. Only hybrid-ordinary contrast was prespecified."
+  },
+  {
+    "method": "hybrid",
+    "comparator": "library",
+    "plant_mean_differences": [
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      -0.3333333333333333,
+      0.0,
+      -0.3333333333333333,
+      0.6666666666666666,
+      0.3333333333333333
+    ],
+    "difference_pp": 10.0,
+    "cluster_sign_flip_p": 0.53125,
+    "bootstrap95_pp": [
+      -6.666666666666668,
+      29.999999999999993
+    ],
+    "inference": "Post-hoc exact whole-plant label-swap sensitivity analysis; requires exchangeability under the null. Only hybrid-ordinary contrast was prespecified."
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "url": "https://github.com/PX4/PX4-Autopilot/releases/download/v1.17.0/px4_fmu-v6c_default.px4",
+  "board_id": 56,
+  "sha256": "0d9ac77b8cdaf30a7cb1127200e20f9d42e7586a6b47d6bf32444b5852e98387",
+  "purpose": "Official stock recovery image; not flashed"
+}

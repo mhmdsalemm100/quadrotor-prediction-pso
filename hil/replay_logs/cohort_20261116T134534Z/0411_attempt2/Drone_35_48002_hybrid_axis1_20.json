@@ -1,0 +1,97 @@
+{
+  "id": "Drone_35_48002_hybrid_axis1_20",
+  "execution": "hardware",
+  "status": "recorded_requires_analysis",
+  "controller_completion": [
+    0,
+    3201,
+    2200,
+    11436
+  ],
+  "first_board_tick": 5,
+  "last_board_tick": 3199,
+  "gain_order": [
+    {
+      "name": "roll_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Kp",
+      "lower": 0.01,
+      "upper": 1.0,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Ki",
+      "lower": 0.0001,
+      "upper": 0.5,
+      "scale": "log"
+    }
+  ],
+  "gains": [
+    11.902498385551763,
+    0.07997961145694099,
+    0.00010056680428897967,
+    11.730060766746224,
+    0.08307089161951,
+    0.003896131617265224,
+    0.370131633460732,
+    0.08183796242694613
+  ],
+  "plant": [
+    0.024009204980536,
+    0.02491950659117243,
+    0.04164629868661694,
+    0.225,
+    1.1268219193108721e-05,
+    1.8141323026733408e-07,
+    0.0035,
+    0.0039,
+    0.0034,
+    0.0001287,
+    0.01952867202633983,
+    1148.0,
+    -141.4
+  ],
+  "drone": "Drone_35",
+  "method": "hybrid",
+  "seed": 48002,
+  "axis": 1,
+  "amplitude_rad": 0.3490658503988659,
+  "hardware_packets": 1066,
+  "max_host_interval_s": 0.012475299998186529,
+  "source": "ideal-state HIL; no estimator in feedback",
+  "note": "Transport checks only; scientific metrics require trace analysis."
+}

@@ -1,0 +1,8 @@
+{
+  "index": 407,
+  "id": "Drone_35_48002_library_axis2_100",
+  "attempt": 1,
+  "directory": "0407_attempt1",
+  "status": "infrastructure_failure",
+  "error": "Host integration gap 0.031911 s >20 ms"
+}

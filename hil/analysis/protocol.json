@@ -1,0 +1,19 @@
+{
+  "planned": 900,
+  "max_attempts_per_scenario": 3,
+  "selection": "first transport-valid attempt, irrespective of controller quality",
+  "retryable_prefixes": [
+    "Host integration gap",
+    "Excessive actuator stream gap",
+    "Missed start",
+    "Board rejected trial: [2,",
+    "Incomplete hardware output coverage"
+  ],
+  "timing_gates_unchanged": true,
+  "plan_sha256": "267fd5b4fd05b1bbb42bed17dc54407d479fe70e33f0bee8af322410c9d03ad2",
+  "status": "running",
+  "valid": 0,
+  "invalid_scenarios": 0,
+  "attempts": 0,
+  "next_index": 0
+}

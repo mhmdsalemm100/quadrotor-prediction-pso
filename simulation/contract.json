@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "daeaa412f7819185eb9f13e26f059c752ce179747641b11960dc9183d94e52dd",
+  "code_hashes": {
+    "model.py": "12d97aa315326c919b79b7040a178bcf5c84fc1bcf3f2e133b17ffee84104be6",
+    "pipeline.py": "8b15183b37f2657cae2dac95f889a976e24be0292858a5c68d31f9491511e74c",
+    "study.py": "65bad488f08fc5d74dc9244399b540dcb10f8fb0070ea396e0276757ad18ab1c"
+  },
+  "config_sha256": "c3c4f4deb03aa1eac33eabf148b136c9c2e34c4c7bec62c2729d8f3c3e662205"
+}

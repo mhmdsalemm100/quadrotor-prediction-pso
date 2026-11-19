@@ -1,0 +1,97 @@
+{
+  "id": "Drone_38_48002_library_axis1_5",
+  "execution": "hardware",
+  "status": "recorded_requires_analysis",
+  "controller_completion": [
+    0,
+    3201,
+    2448,
+    3590
+  ],
+  "first_board_tick": 5,
+  "last_board_tick": 3198,
+  "gain_order": [
+    {
+      "name": "roll_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Kp",
+      "lower": 0.01,
+      "upper": 1.0,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Ki",
+      "lower": 0.0001,
+      "upper": 0.5,
+      "scale": "log"
+    }
+  ],
+  "gains": [
+    9.97699202570918,
+    0.06303466452922936,
+    0.0014278186258650874,
+    13.918607611831723,
+    0.1614989868595987,
+    0.000246347118382462,
+    0.3942926866615968,
+    0.08085957957391789
+  ],
+  "plant": [
+    0.023475414687942432,
+    0.024365477804072947,
+    0.04072038756297123,
+    0.225,
+    1.1324004884027643e-05,
+    1.8231135464873463e-07,
+    0.0035,
+    0.0039,
+    0.0034,
+    0.0001287,
+    0.022424704915381042,
+    1148.0,
+    -141.4
+  ],
+  "drone": "Drone_38",
+  "method": "library",
+  "seed": 48002,
+  "axis": 1,
+  "amplitude_rad": 0.08726646259971647,
+  "hardware_packets": 1065,
+  "max_host_interval_s": 0.004289100004825741,
+  "source": "ideal-state HIL; no estimator in feedback",
+  "note": "Transport checks only; scientific metrics require trace analysis."
+}

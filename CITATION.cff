@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and dataset using the DOI assigned to its Zenodo record."
+title: "Budget-Limited Quadrotor Controller Optimization: Simulation and Processor-Replay Records"
+type: software
+authors:
+  - family-names: Albaraj
+    given-names: Mohammad S.
+  - family-names: Ahmed
+    given-names: Sherif
+  - family-names: Ali
+    given-names: Syed Saad Azhar
+version: "1.0.0"
+date-released: "2026-11-18"
+license: MIT
+keywords:
+  - particle swarm optimization
+  - controller tuning
+  - transfer learning
+  - processor-in-the-loop

@@ -1,0 +1,20 @@
+[
+  {
+    "method": "predictions",
+    "mean_paired_saving_s": 48.7481426100169,
+    "median_paired_saving_s": 43.06135924998671,
+    "label_only_seconds": 41785.55789120053,
+    "illustrative_label_only_break_even": 857.1723075786342,
+    "label_evaluation_break_even": 1337.704918032787,
+    "scope": "Measured durations under concurrent workload; excludes offline model selection, validation and development, and failure fallback. Conditional accounting illustration, not deployment forecast."
+  },
+  {
+    "method": "hybrid",
+    "mean_paired_saving_s": 48.03580791002217,
+    "median_paired_saving_s": 40.85335705001489,
+    "label_only_seconds": 41785.55789120053,
+    "illustrative_label_only_break_even": 869.8835245879649,
+    "label_evaluation_break_even": 1337.704918032787,
+    "scope": "Measured durations under concurrent workload; excludes offline model selection, validation and development, and failure fallback. Conditional accounting illustration, not deployment forecast."
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "id": "Drone_38_48003_ordinary_axis1_20",
+  "execution": "hardware",
+  "status": "recorded_requires_analysis",
+  "controller_completion": [
+    0,
+    3201,
+    2464,
+    2774
+  ],
+  "first_board_tick": 3,
+  "last_board_tick": 3197,
+  "gain_order": [
+    {
+      "name": "roll_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Kp",
+      "lower": 0.01,
+      "upper": 1.0,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Ki",
+      "lower": 0.0001,
+      "upper": 0.5,
+      "scale": "log"
+    }
+  ],
+  "gains": [
+    14.709152886430955,
+    0.14706163238479428,
+    0.012571031864985897,
+    14.12753373677323,
+    0.15935628145523617,
+    0.05659255059840972,
+    0.39276186927990714,
+    0.06959106750592893
+  ],
+  "plant": [
+    0.023475414687942432,
+    0.024365477804072947,
+    0.04072038756297123,
+    0.225,
+    1.1324004884027643e-05,
+    1.8231135464873463e-07,
+    0.0035,
+    0.0039,
+    0.0034,
+    0.0001287,
+    0.022424704915381042,
+    1148.0,
+    -141.4
+  ],
+  "drone": "Drone_38",
+  "method": "ordinary",
+  "seed": 48003,
+  "axis": 1,
+  "amplitude_rad": 0.3490658503988659,
+  "hardware_packets": 1066,
+  "max_host_interval_s": 0.0036348000285215676,
+  "source": "ideal-state HIL; no estimator in feedback",
+  "note": "Transport checks only; scientific metrics require trace analysis."
+}

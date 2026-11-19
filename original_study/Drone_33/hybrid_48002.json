@@ -1,0 +1,26 @@
+{
+  "drone": "Drone_33",
+  "seed": 48002,
+  "method": "hybrid",
+  "evaluations": 1800,
+  "gains": [
+    9.292700658195159,
+    0.052969765355889924,
+    0.0007652132947629288,
+    12.765146415632774,
+    0.12416885543401582,
+    0.013505104017352002,
+    0.45883848837083735,
+    0.061399050145489735
+  ],
+  "optimizer_seconds": 51.31361339997966,
+  "initializer_lookup_seconds": 0.0006990000256337225,
+  "tuning_seconds": 51.31431240000529,
+  "fitness": 0.04657895115401235,
+  "training_feasible": true,
+  "mean_settling_s": 0.2185,
+  "worst_settling_s": 0.248,
+  "max_overshoot_pct": 1.0072301292929797,
+  "local_passes": 60,
+  "combined_passes": 0
+}

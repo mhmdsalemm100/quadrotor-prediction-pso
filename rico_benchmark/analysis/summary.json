@@ -1,0 +1,166 @@
+{
+  "table_A": [
+    {
+      "method": "random",
+      "passes": 15,
+      "runs": 30,
+      "median_best_cost": 0.05629205149836177,
+      "q25": 0.05003499921578077,
+      "q75": 0.05926953490829213,
+      "IQR": 0.009234535692511356
+    },
+    {
+      "method": "lhs",
+      "passes": 15,
+      "runs": 30,
+      "median_best_cost": 0.05588097111650488,
+      "q25": 0.049684502136241954,
+      "q75": 0.05856592103536828,
+      "IQR": 0.008881418899126324
+    },
+    {
+      "method": "obl",
+      "passes": 15,
+      "runs": 30,
+      "median_best_cost": 0.055717755558288895,
+      "q25": 0.04823220751349025,
+      "q75": 0.058138075231492115,
+      "IQR": 0.009905867718001865
+    },
+    {
+      "method": "chaotic",
+      "passes": 13,
+      "runs": 30,
+      "median_best_cost": 0.05615528737892823,
+      "q25": 0.05003496538771743,
+      "q75": 0.058089256312703265,
+      "IQR": 0.008054290924985837
+    },
+    {
+      "method": "predictions",
+      "passes": 24,
+      "runs": 30,
+      "median_best_cost": 0.05490477557591438,
+      "q25": 0.04698209780493136,
+      "q75": 0.0563876976644059,
+      "IQR": 0.00940559985947454
+    },
+    {
+      "method": "library",
+      "passes": 25,
+      "runs": 30,
+      "median_best_cost": 0.05459555206996283,
+      "q25": 0.047119414483027894,
+      "q75": 0.05618598590113785,
+      "IQR": 0.009066571418109959
+    },
+    {
+      "method": "hybrid",
+      "passes": 25,
+      "runs": 30,
+      "median_best_cost": 0.05438400079694258,
+      "q25": 0.047090928367851066,
+      "q75": 0.056003264891659604,
+      "IQR": 0.008912336523808538
+    }
+  ],
+  "table_C": [
+    {
+      "comparator": "random",
+      "wilcoxon_p": 1.1920928955078125e-06,
+      "cliffs_delta": -0.29555555555555557,
+      "effect_label": "small",
+      "paired_rank_biserial": -0.9010752688172043,
+      "plant_signflip_p": 0.00390625,
+      "holm_p": 3.993511199951172e-06,
+      "plant_holm_p": 0.015625
+    },
+    {
+      "comparator": "lhs",
+      "wilcoxon_p": 2.551823854446411e-07,
+      "cliffs_delta": -0.23333333333333334,
+      "effect_label": "small",
+      "paired_rank_biserial": -0.9354838709677419,
+      "plant_signflip_p": 0.001953125,
+      "holm_p": 1.2759119272232056e-06,
+      "plant_holm_p": 0.01171875
+    },
+    {
+      "comparator": "obl",
+      "wilcoxon_p": 6.146728992462158e-08,
+      "cliffs_delta": -0.2088888888888889,
+      "effect_label": "small",
+      "paired_rank_biserial": -0.9612903225806452,
+      "plant_signflip_p": 0.00390625,
+      "holm_p": 3.688037395477295e-07,
+      "plant_holm_p": 0.015625
+    },
+    {
+      "comparator": "chaotic",
+      "wilcoxon_p": 9.98377799987793e-07,
+      "cliffs_delta": -0.2311111111111111,
+      "effect_label": "small",
+      "paired_rank_biserial": -0.9053763440860215,
+      "plant_signflip_p": 0.001953125,
+      "holm_p": 3.993511199951172e-06,
+      "plant_holm_p": 0.01171875
+    },
+    {
+      "comparator": "predictions",
+      "wilcoxon_p": 0.1459994912147522,
+      "cliffs_delta": -0.05333333333333334,
+      "effect_label": "negligible",
+      "paired_rank_biserial": -0.30752688172043013,
+      "plant_signflip_p": 0.875,
+      "holm_p": 0.2919989824295044,
+      "plant_holm_p": 0.875
+    },
+    {
+      "comparator": "library",
+      "wilcoxon_p": 0.15188691951334476,
+      "cliffs_delta": -0.042222222222222223,
+      "effect_label": "negligible",
+      "paired_rank_biserial": -0.3032258064516129,
+      "plant_signflip_p": 0.357421875,
+      "holm_p": 0.2919989824295044,
+      "plant_holm_p": 0.71484375
+    }
+  ],
+  "table_D": [
+    {
+      "scenario": "reused_training_data",
+      "T_eval": 0.013044142000035208,
+      "T_train": 0.3673834999990504,
+      "T_pred": 0.0007753883333195214,
+      "target_cost": 0.05629205149836177,
+      "random_median_curve_reaches_at": 1796,
+      "hybrid_median_curve_reaches_at": 965,
+      "delta_evaluations": 831,
+      "saving_seconds_per_plant": 10.838906613695938,
+      "offline_seconds": 0.3673834999990504,
+      "break_even_plants": 1
+    },
+    {
+      "scenario": "data_generation_included_serial_equivalent",
+      "T_eval": 0.013044142000035208,
+      "T_train": 0.3673834999990504,
+      "T_pred": 0.0007753883333195214,
+      "target_cost": 0.05629205149836177,
+      "random_median_curve_reaches_at": 1796,
+      "hybrid_median_curve_reaches_at": 965,
+      "delta_evaluations": 831,
+      "saving_seconds_per_plant": 10.838906613695938,
+      "offline_seconds": 41785.92527470053,
+      "break_even_plants": 3856
+    }
+  ],
+  "threshold": 0.05629205149836177,
+  "hybrid_reach": 965,
+  "random_reach": 1796,
+  "saving_evaluations_percent": 46.388888888888886,
+  "observed_crossing_saving_percent": 46.26948775055679,
+  "quality_note": "Table B uses full original validation criterion, not just a fitness threshold. Anytime curves are prefixes of 1800-budget trajectories; they are not independently retuned smaller-budget runs.",
+  "effect_note": "Negative delta/rank-biserial favors hybrid (lower costs). Cliff delta is the conventional all-cross-pairs distribution effect, not a paired statistic. Paired rank-biserial and plant-level sensitivity are included.",
+  "break_even_note": "Target is the random PSO median final cost; break-even uses the difference between random and hybrid median-curve FIRST crossings, allowing random PSO to reach its final median before 1800. The separate full-budget saving compares hybrid crossing against 1800. Per-run nonattainment is retained in target_crossings.csv. Data-included numerator uses historical summed optimization durations, not historical parallel elapsed time. Predictor selection/development and validation remain excluded.",
+  "hardware_scope": "No new HIL/PIL tests. Original five-method frozen-controller hardware results remain unchanged."
+}

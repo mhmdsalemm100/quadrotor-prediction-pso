@@ -1,0 +1,26 @@
+{
+  "drone": "Drone_34",
+  "seed": 48002,
+  "method": "library",
+  "evaluations": 1800,
+  "gains": [
+    19.158845532375448,
+    0.1293970241783618,
+    0.16065084898117468,
+    15.17121914957824,
+    0.08003687616670013,
+    0.01643666061280208,
+    0.3696626613690652,
+    0.10660920610683275
+  ],
+  "optimizer_seconds": 50.90394530002959,
+  "initializer_lookup_seconds": 1.2199976481497288e-05,
+  "tuning_seconds": 50.90395750000607,
+  "fitness": 0.045025881073107704,
+  "training_feasible": true,
+  "mean_settling_s": 0.18733333333333332,
+  "worst_settling_s": 0.284,
+  "max_overshoot_pct": 1.8422000797490012,
+  "local_passes": 60,
+  "combined_passes": 0
+}

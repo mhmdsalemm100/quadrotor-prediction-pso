@@ -1,0 +1,97 @@
+{
+  "id": "Drone_38_48003_predictions_axis2_100",
+  "execution": "hardware",
+  "status": "recorded_requires_analysis",
+  "controller_completion": [
+    0,
+    3201,
+    2046,
+    3985
+  ],
+  "first_board_tick": 7,
+  "last_board_tick": 3197,
+  "gain_order": [
+    {
+      "name": "roll_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Kp",
+      "lower": 0.01,
+      "upper": 1.0,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Ki",
+      "lower": 0.0001,
+      "upper": 0.5,
+      "scale": "log"
+    }
+  ],
+  "gains": [
+    14.506632164445048,
+    0.14607546412537864,
+    0.0016908807167069053,
+    14.924216512678584,
+    0.150409440526819,
+    0.0004306762501321566,
+    0.39216476932625743,
+    0.07804695760594321
+  ],
+  "plant": [
+    0.023475414687942432,
+    0.024365477804072947,
+    0.04072038756297123,
+    0.225,
+    1.1324004884027643e-05,
+    1.8231135464873463e-07,
+    0.0035,
+    0.0039,
+    0.0034,
+    0.0001287,
+    0.022424704915381042,
+    1148.0,
+    -141.4
+  ],
+  "drone": "Drone_38",
+  "method": "predictions",
+  "seed": 48003,
+  "axis": 2,
+  "amplitude_rad": 1.7453292519943295,
+  "hardware_packets": 1064,
+  "max_host_interval_s": 0.005117799970321357,
+  "source": "ideal-state HIL; no estimator in feedback",
+  "note": "Transport checks only; scientific metrics require trace analysis."
+}

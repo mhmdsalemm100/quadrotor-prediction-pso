@@ -1,0 +1,113 @@
+{
+  "study_name": "Fresh healthy-configuration PSO study",
+  "integration_dt_s": 0.001,
+  "controller_dt_s": 0.001,
+  "mixer_dt_s": 0.004,
+  "pre_step_s": 0.2,
+  "response_horizon_s": 3.0,
+  "settling_band_fraction": 0.02,
+  "minimum_final_hold_s": 0.25,
+  "max_overshoot_fraction": 0.1,
+  "max_final_error_fraction": 0.02,
+  "max_motor_clipping_fraction": 0.05,
+  "minimum_motor_speed_rad_s": 0.0,
+  "fixed_discrete_pole": 0.9997,
+  "fitness_weights": {
+    "settling": 0.45,
+    "rise": 0.2,
+    "itae": 0.25,
+    "iae": 0.1
+  },
+  "worst_case_weight": 0.3,
+  "effort_weight": 0.01,
+  "seeds": [
+    28001,
+    28002,
+    28003,
+    28004,
+    28005,
+    28006,
+    28007,
+    28008,
+    28009,
+    28010,
+    28011,
+    28012,
+    28013,
+    28014,
+    28015,
+    28016,
+    28017,
+    28018,
+    28019,
+    28020,
+    28021,
+    28022,
+    28023,
+    28024,
+    28025,
+    28026,
+    28027,
+    28028,
+    28029,
+    28030
+  ],
+  "workers": 4,
+  "parameters": [
+    {
+      "name": "roll_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Kp",
+      "lower": 0.01,
+      "upper": 1.0,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Ki",
+      "lower": 0.0001,
+      "upper": 0.5,
+      "scale": "log"
+    }
+  ],
+  "swarm_size": 64,
+  "iterations": 50,
+  "comparison_evaluation_budget": 3264,
+  "sigma0": 0.25,
+  "cma_active": true,
+  "cma_diagonal": false,
+  "cma_initialization": "best of shared stratified initial population"
+}

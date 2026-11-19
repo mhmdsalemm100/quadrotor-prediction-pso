@@ -1,0 +1,3 @@
+menuconfig EXAMPLES_PSONN
+	bool "psonn study controller (simulation only)"
+	default n

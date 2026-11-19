@@ -1,0 +1,5 @@
+comparator,hybrid_only_passes,comparator_only_passes,paired_pass_difference_pp,cluster_bootstrap_low_pp,cluster_bootstrap_high_pp,median_paired_time_saving_pct
+ordinary,9,0,30.0,13.333333333333334,50.0,-2.3263855374481723
+predictions,3,3,0.0,-16.666666666666664,16.666666666666664,-1.4453946440255327
+library,5,2,10.0,-6.666666666666668,29.999999999999993,-2.244802424239589
+reference,0,7,-23.333333333333332,-40.0,-6.666666666666667,42.872683356765464

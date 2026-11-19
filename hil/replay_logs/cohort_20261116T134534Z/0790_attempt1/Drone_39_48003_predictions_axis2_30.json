@@ -1,0 +1,97 @@
+{
+  "id": "Drone_39_48003_predictions_axis2_30",
+  "execution": "hardware",
+  "status": "recorded_requires_analysis",
+  "controller_completion": [
+    0,
+    3201,
+    2417,
+    11229
+  ],
+  "first_board_tick": 3,
+  "last_board_tick": 3198,
+  "gain_order": [
+    {
+      "name": "roll_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Kp",
+      "lower": 0.01,
+      "upper": 1.0,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Ki",
+      "lower": 0.0001,
+      "upper": 0.5,
+      "scale": "log"
+    }
+  ],
+  "gains": [
+    13.448666862610315,
+    0.08882668562337809,
+    0.0005908611130500866,
+    15.307326957815791,
+    0.13518387993658212,
+    0.005380259418140927,
+    0.35380111971063544,
+    0.08011478007893522
+  ],
+  "plant": [
+    0.022925636550910535,
+    0.02379485499833842,
+    0.03976674396982585,
+    0.225,
+    1.0728611982286307e-05,
+    1.7272579833925193e-07,
+    0.0035,
+    0.0039,
+    0.0034,
+    0.0001287,
+    0.01697108427487535,
+    1148.0,
+    -141.4
+  ],
+  "drone": "Drone_39",
+  "method": "predictions",
+  "seed": 48003,
+  "axis": 2,
+  "amplitude_rad": 0.5235987755982988,
+  "hardware_packets": 1065,
+  "max_host_interval_s": 0.011496399994939566,
+  "source": "ideal-state HIL; no estimator in feedback",
+  "note": "Transport checks only; scientific metrics require trace analysis."
+}
