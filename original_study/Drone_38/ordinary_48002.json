@@ -1,0 +1,26 @@
+{
+  "drone": "Drone_38",
+  "seed": 48002,
+  "method": "ordinary",
+  "evaluations": 1800,
+  "gains": [
+    13.486547485181394,
+    0.1276709712681239,
+    0.2502679959059639,
+    9.99263828349705,
+    0.0683677378417437,
+    0.008956419329861938,
+    0.3955625625965232,
+    0.06896385314138945
+  ],
+  "optimizer_seconds": 30.01058910001302,
+  "initializer_lookup_seconds": 0,
+  "tuning_seconds": 30.01058910001302,
+  "fitness": 0.05712071355338459,
+  "training_feasible": true,
+  "mean_settling_s": 0.24933333333333332,
+  "worst_settling_s": 0.34900000000000003,
+  "max_overshoot_pct": 1.529452538219056,
+  "local_passes": 60,
+  "combined_passes": 0
+}

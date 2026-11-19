@@ -1,0 +1,8 @@
+{
+  "index": 32,
+  "id": "Drone_31_48002_ordinary_axis1_5",
+  "attempt": 2,
+  "directory": "0032_attempt2",
+  "status": "infrastructure_failure",
+  "error": "Board rejected trial: [2, 2122, 2840, 21036]"
+}

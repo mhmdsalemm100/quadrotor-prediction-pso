@@ -1,0 +1,115 @@
+{
+  "method": "library",
+  "plant": "Drone_42",
+  "seed": 590103,
+  "evaluations": 1800,
+  "optimizer_seconds": 14.980695799997193,
+  "validation_seconds": 0.5402152999959071,
+  "checkpoints": [
+    {
+      "evaluations": 300,
+      "gains": [
+        16.252736324397816,
+        0.0839729100120276,
+        0.0046176149246031604,
+        12.86082446189675,
+        0.07914428239123525,
+        0.0009060800073578629,
+        0.3650424000675549,
+        0.0956057014082022
+      ],
+      "passed": false,
+      "fitness": 0.053406274617373975,
+      "training_feasible": true,
+      "mean_settling_s": 0.23283333333333334,
+      "worst_settling_s": 0.324,
+      "max_overshoot_pct": 6.724922383001419,
+      "local_passes": 60,
+      "combined_passes": 0
+    },
+    {
+      "evaluations": 600,
+      "gains": [
+        16.252736324397816,
+        0.0839729100120276,
+        0.0046176149246031604,
+        12.86082446189675,
+        0.07914428239123525,
+        0.0009060800073578629,
+        0.3650424000675549,
+        0.0956057014082022
+      ],
+      "passed": false,
+      "fitness": 0.053406274617373975,
+      "training_feasible": true,
+      "mean_settling_s": 0.23283333333333334,
+      "worst_settling_s": 0.324,
+      "max_overshoot_pct": 6.724922383001419,
+      "local_passes": 60,
+      "combined_passes": 0
+    },
+    {
+      "evaluations": 900,
+      "gains": [
+        16.252736324397816,
+        0.0839729100120276,
+        0.0046176149246031604,
+        12.86082446189675,
+        0.07914428239123525,
+        0.0009060800073578629,
+        0.3650424000675549,
+        0.0956057014082022
+      ],
+      "passed": false,
+      "fitness": 0.053406274617373975,
+      "training_feasible": true,
+      "mean_settling_s": 0.23283333333333334,
+      "worst_settling_s": 0.324,
+      "max_overshoot_pct": 6.724922383001419,
+      "local_passes": 60,
+      "combined_passes": 0
+    },
+    {
+      "evaluations": 1200,
+      "gains": [
+        17.24242436769985,
+        0.15595801970421141,
+        0.004596499853634361,
+        12.581765649944913,
+        0.07528409890500853,
+        0.0003363405442252312,
+        0.3646360397109063,
+        0.07431411706726088
+      ],
+      "passed": false,
+      "fitness": 0.05188085379744759,
+      "training_feasible": true,
+      "mean_settling_s": 0.21750000000000003,
+      "worst_settling_s": 0.34,
+      "max_overshoot_pct": 1.389265383928584,
+      "local_passes": 60,
+      "combined_passes": 0
+    },
+    {
+      "evaluations": 1800,
+      "gains": [
+        16.605980948120166,
+        0.16558004863453735,
+        0.004875535860164702,
+        13.088392485538423,
+        0.07567288328338857,
+        0.001530379040043375,
+        0.3689515445605841,
+        0.09636487509269274
+      ],
+      "passed": false,
+      "fitness": 0.05059182411102553,
+      "training_feasible": true,
+      "mean_settling_s": 0.20833333333333334,
+      "worst_settling_s": 0.321,
+      "max_overshoot_pct": 1.8606113717064332,
+      "local_passes": 60,
+      "combined_passes": 0
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "method": "hybrid",
+    "command_deg_or_deg_s": [
+      5.676683887674757,
+      -9.997648700328632,
+      31.566567654191097
+    ],
+    "final_normalized_errors": [
+      0.09747769732809924,
+      0.019039926317345666,
+      0.005243393428883372
+    ],
+    "roll_pitch_rates_deg_s": [
+      5.72542334388389,
+      2.845156428425952
+    ],
+    "required_body_rates_deg_s": [
+      5.725518685603722,
+      2.845039371020716
+    ],
+    "euler_derivatives_deg_s": [
+      -9.722029114402078e-05,
+      0.0001165897351893605
+    ],
+    "outer_rate_refs_deg_s": [
+      5.748879568898188,
+      2.8110863170579576
+    ],
+    "motor_clip_fraction": 0.010663112295901367,
+    "gain_source": "SOURCE_STUDY\\neural network by python\\hybrid_1800\\Drone_21\\28001.json",
+    "simulator_sha256": "12d97aa315326c919b79b7040a178bcf5c84fc1bcf3f2e133b17ffee84104be6"
+  },
+  {
+    "method": "reference",
+    "command_deg_or_deg_s": [
+      5.676683887674757,
+      -9.997648700328632,
+      31.566567654191097
+    ],
+    "final_normalized_errors": [
+      0.07074816231569432,
+      0.027663717700202973,
+      0.004913199370283623
+    ],
+    "roll_pitch_rates_deg_s": [
+      5.774554510013833,
+      2.925282725849339
+    ],
+    "required_body_rates_deg_s": [
+      5.77451624965296,
+      2.928808226759807
+    ],
+    "euler_derivatives_deg_s": [
+      9.701314915149579e-05,
+      -0.003510569700719288
+    ],
+    "outer_rate_refs_deg_s": [
+      5.7917173138980464,
+      2.841045018769702
+    ],
+    "motor_clip_fraction": 0.007997334221926024,
+    "gain_source": "SOURCE_STUDY\\drones\\Drone_21\\runs\\28001.json",
+    "simulator_sha256": "12d97aa315326c919b79b7040a178bcf5c84fc1bcf3f2e133b17ffee84104be6"
+  }
+]

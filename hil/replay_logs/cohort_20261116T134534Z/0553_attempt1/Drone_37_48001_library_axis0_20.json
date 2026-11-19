@@ -1,0 +1,97 @@
+{
+  "id": "Drone_37_48001_library_axis0_20",
+  "execution": "hardware",
+  "status": "recorded_requires_analysis",
+  "controller_completion": [
+    0,
+    3201,
+    2076,
+    4122
+  ],
+  "first_board_tick": 3,
+  "last_board_tick": 3199,
+  "gain_order": [
+    {
+      "name": "roll_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Kp",
+      "lower": 0.01,
+      "upper": 1.0,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Ki",
+      "lower": 0.0001,
+      "upper": 0.5,
+      "scale": "log"
+    }
+  ],
+  "gains": [
+    16.235376745497483,
+    0.15873781107422252,
+    0.0012919955227491092,
+    12.551717279439881,
+    0.08164109678305116,
+    0.005422002543622607,
+    0.3661419670392115,
+    0.08511205543655212
+  ],
+  "plant": [
+    0.020673529400717754,
+    0.021457359899323167,
+    0.03586024531119762,
+    0.225,
+    1.0175959327556292e-05,
+    1.6382834066717328e-07,
+    0.0035,
+    0.0039,
+    0.0034,
+    0.0001287,
+    0.01791985528145916,
+    1148.0,
+    -141.4
+  ],
+  "drone": "Drone_37",
+  "method": "library",
+  "seed": 48001,
+  "axis": 0,
+  "amplitude_rad": 0.3490658503988659,
+  "hardware_packets": 1066,
+  "max_host_interval_s": 0.004611399956047535,
+  "source": "ideal-state HIL; no estimator in feedback",
+  "note": "Transport checks only; scientific metrics require trace analysis."
+}

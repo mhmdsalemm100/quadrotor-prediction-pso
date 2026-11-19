@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "runs": 210,
+  "optimizer_evaluations": 378000,
+  "checkpoint_assessments": 1050,
+  "check": "All gain ledgers, exact budgets, bounds, paired velocities, OBL pool/selection, checkpoint gains/quality and frozen source hashes passed.",
+  "hardware_runs_added": 0,
+  "original_inputs_unchanged": true
+}

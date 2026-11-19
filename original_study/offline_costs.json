@@ -1,0 +1,64 @@
+{
+  "label_generation_runs": 600,
+  "label_generation_evals": 1958400,
+  "label_optimizer_sum_seconds": 41785.55789120053,
+  "candidate_training_recorded_wall_seconds": 135.93344960000832,
+  "candidate_cross_validation_controller_scores": 280,
+  "portfolio_screen_runs": 40,
+  "portfolio_screen_evals": 36000,
+  "portfolio_screen_optimizer_sum_seconds": 501.4281715999823,
+  "model_load_seconds": 12.999688300013077,
+  "library_build_seconds": 0.10349529999075457,
+  "primary_test_evaluations": 313920,
+  "cost_scope": "Label generation and screening times sum run durations across workers. Training time is elapsed. They are not additive wall time. Prior development budget sweeps, validation simulations, compilation and audits are outside online evaluation counts. No complete historical project wall time was recorded.",
+  "previous_development_comparisons": [
+    {
+      "stage": "Orange_900_Pilot\\results",
+      "runs": 60,
+      "evaluations": 54000,
+      "optimizer_sum_seconds": 913.8555808999954
+    },
+    {
+      "stage": "neural network by python\\results",
+      "runs": 60,
+      "evaluations": 54000,
+      "optimizer_sum_seconds": 944.7401287997491
+    },
+    {
+      "stage": "neural network by python\\portfolio\\validation",
+      "runs": 30,
+      "evaluations": 27000,
+      "optimizer_sum_seconds": 386.8530037000892
+    },
+    {
+      "stage": "neural network by python\\hybrid_1200",
+      "runs": 30,
+      "evaluations": 36000,
+      "optimizer_sum_seconds": 577.3329425998963
+    },
+    {
+      "stage": "neural network by python\\hybrid_1500",
+      "runs": 30,
+      "evaluations": 45000,
+      "optimizer_sum_seconds": 3244.5260793000925
+    },
+    {
+      "stage": "neural network by python\\hybrid_1700",
+      "runs": 30,
+      "evaluations": 51000,
+      "optimizer_sum_seconds": 4198.508195100061
+    },
+    {
+      "stage": "neural network by python\\hybrid_1800",
+      "runs": 30,
+      "evaluations": 54000,
+      "optimizer_sum_seconds": 3181.348872800241
+    },
+    {
+      "stage": "neural network by python\\hybrid_1900",
+      "runs": 30,
+      "evaluations": 57000,
+      "optimizer_sum_seconds": 3518.343214099761
+    }
+  ]
+}

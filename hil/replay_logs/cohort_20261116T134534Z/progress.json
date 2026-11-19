@@ -1,0 +1,36 @@
+{
+  "planned": 900,
+  "max_attempts_per_scenario": 3,
+  "selection": "first transport-valid attempt, irrespective of controller quality",
+  "retryable_prefixes": [
+    "Host integration gap",
+    "Excessive actuator stream gap",
+    "Missed start",
+    "Board rejected trial: [2,",
+    "Incomplete hardware output coverage"
+  ],
+  "timing_gates_unchanged": true,
+  "plan_sha256": "267fd5b4fd05b1bbb42bed17dc54407d479fe70e33f0bee8af322410c9d03ad2",
+  "status": "completed_with_invalid",
+  "valid": 892,
+  "invalid_scenarios": 8,
+  "attempts": 1039,
+  "next_index": 900,
+  "interruptions": [
+    {
+      "at_index": 356,
+      "reason": "ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))",
+      "resumed_utc": "20261116T142043Z"
+    },
+    {
+      "at_index": 664,
+      "reason": "Study actuator stream lost",
+      "resumed_utc": "20261116T144947Z"
+    },
+    {
+      "at_index": 795,
+      "reason": "ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))",
+      "resumed_utc": "20261116T200542Z"
+    }
+  ]
+}

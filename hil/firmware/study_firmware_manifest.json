@@ -1,0 +1,22 @@
+{
+  "upstream_commit": "d6f12ad1c4f70ad3230afd7d86e971421e02fef4",
+  "target": "px4_fmu-v6c_default",
+  "interface": "psonn run; simulation-only output; disarmed HIL required",
+  "hardware_flashed": true,
+  "source_hashes": {
+    "src/examples/psonn/psonn.cpp": "44f5ec0a1cccb24df07634fc311fc457c37f605e1ffbd7cbefd90db5f82f1728",
+    "src/examples/psonn/study_controller.hpp": "3a8ad0afc3e905575ddd0d3f09e61cb4252199b14a69c3fb12870328fff50a36",
+    "src/examples/psonn/CMakeLists.txt": "95473103085b2c93373ab0a58b9b3a186b43767b425d9c1fec2594171388b824",
+    "src/examples/psonn/Kconfig": "959bce85b9475904939255f7e997ac61a21ff5f6d7463f8a98dfa1d975ff1f1c",
+    "msg/PsonnState.msg": "f758069b14c3bb18677b62f180874511b0214461c11d20befdf1d76856fe971b",
+    "msg/PsonnOutput.msg": "ea9cc9ed96ed0002fd0aa17c6b77dfb2e66e6ef67e126d247bdb1bba5602ce44",
+    "msg/CMakeLists.txt": "0edcecf78f9c06235164fdfe46a6c2b3e227776476c02962595cb5a952129571",
+    "src/modules/mavlink/mavlink_receiver.h": "831228eea67f69a8eb567bee89a060e90db39c96e2365c9f5e76d8356ed8c71e",
+    "src/modules/mavlink/mavlink_receiver.cpp": "83aab4520e8a1a644c019d7e02212b80f947078813553c1bf744409bdca705b1",
+    "src/modules/mavlink/streams/HIL_ACTUATOR_CONTROLS.hpp": "0cebad22a0f2f85251819879ee827ad45610b34c05ca149df389de9dde8d3a8e",
+    "boards/px4/fmu-v6c/default.px4board": "e4c5a662327ee4ecda0d210b30c8d11f3df2690cf4b47722b618245030025d87",
+    "boards/px4/fmu-v6c/nuttx-config/nsh/defconfig": "b228d1c88abbb0bb796344c89272be8423729af7aa0152bc5625c2babb16eed7"
+  },
+  "image_sha256": "6e931b2be1fdf8ba2a49c27203c96fffc709fe84cd9536f18ef526e2198a6fb4",
+  "upload_verification": "Official uploader: board 56, program 100%, verify 100%, reboot completed"
+}

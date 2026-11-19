@@ -1,0 +1,97 @@
+{
+  "id": "Drone_35_48001_library_axis0_20",
+  "execution": "hardware",
+  "status": "recorded_requires_analysis",
+  "controller_completion": [
+    0,
+    3201,
+    2007,
+    3099
+  ],
+  "first_board_tick": 6,
+  "last_board_tick": 3198,
+  "gain_order": [
+    {
+      "name": "roll_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Kp",
+      "lower": 0.01,
+      "upper": 1.0,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Ki",
+      "lower": 0.0001,
+      "upper": 0.5,
+      "scale": "log"
+    }
+  ],
+  "gains": [
+    11.291954763538834,
+    0.074409472707853,
+    0.0002003517869032164,
+    11.31018150964293,
+    0.08128579174234998,
+    0.003934539367621557,
+    0.3703407644614458,
+    0.08087856523167983
+  ],
+  "plant": [
+    0.024009204980536,
+    0.02491950659117243,
+    0.04164629868661694,
+    0.225,
+    1.1268219193108721e-05,
+    1.8141323026733408e-07,
+    0.0035,
+    0.0039,
+    0.0034,
+    0.0001287,
+    0.01952867202633983,
+    1148.0,
+    -141.4
+  ],
+  "drone": "Drone_35",
+  "method": "library",
+  "seed": 48001,
+  "axis": 0,
+  "amplitude_rad": 0.3490658503988659,
+  "hardware_packets": 1065,
+  "max_host_interval_s": 0.004241399990860373,
+  "source": "ideal-state HIL; no estimator in feedback",
+  "note": "Transport checks only; scientific metrics require trace analysis."
+}

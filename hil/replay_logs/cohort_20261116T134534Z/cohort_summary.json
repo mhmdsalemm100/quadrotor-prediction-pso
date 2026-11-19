@@ -1,0 +1,122 @@
+{
+  "progress": {
+    "planned": 900,
+    "max_attempts_per_scenario": 3,
+    "selection": "first transport-valid attempt, irrespective of controller quality",
+    "retryable_prefixes": [
+      "Host integration gap",
+      "Excessive actuator stream gap",
+      "Missed start",
+      "Board rejected trial: [2,",
+      "Incomplete hardware output coverage"
+    ],
+    "timing_gates_unchanged": true,
+    "plan_sha256": "267fd5b4fd05b1bbb42bed17dc54407d479fe70e33f0bee8af322410c9d03ad2",
+    "status": "completed_with_invalid",
+    "valid": 892,
+    "invalid_scenarios": 8,
+    "attempts": 1039,
+    "next_index": 900,
+    "interruptions": [
+      {
+        "at_index": 356,
+        "reason": "ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))",
+        "resumed_utc": "20261116T142043Z"
+      },
+      {
+        "at_index": 664,
+        "reason": "Study actuator stream lost",
+        "resumed_utc": "20261116T144947Z"
+      },
+      {
+        "at_index": 795,
+        "reason": "ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))",
+        "resumed_utc": "20261116T200542Z"
+      }
+    ]
+  },
+  "attempt_count": 1039,
+  "first_attempt_valid": 785,
+  "failure_reasons": {
+    "Host integration gap": 118,
+    "Board rejected trial": 23,
+    "Missed start of controller trial": 3,
+    "ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))": 2,
+    "Study actuator stream lost": 1
+  },
+  "methods": [
+    {
+      "method": "ordinary",
+      "valid_scenarios": 175,
+      "planned_scenarios": 180,
+      "complete_controllers": 25,
+      "planned_controllers": 30,
+      "controllers_meeting_tracking_subset": 21,
+      "median_final_error_pct": 0.008703072687173448,
+      "median_settling_s": 0.3313926000115461
+    },
+    {
+      "method": "predictions",
+      "valid_scenarios": 178,
+      "planned_scenarios": 180,
+      "complete_controllers": 28,
+      "planned_controllers": 30,
+      "controllers_meeting_tracking_subset": 25,
+      "median_final_error_pct": 0.003209987784230885,
+      "median_settling_s": 0.3115762500050478
+    },
+    {
+      "method": "library",
+      "valid_scenarios": 180,
+      "planned_scenarios": 180,
+      "complete_controllers": 30,
+      "planned_controllers": 30,
+      "controllers_meeting_tracking_subset": 29,
+      "median_final_error_pct": 0.004296828608411258,
+      "median_settling_s": 0.31428727501328113
+    },
+    {
+      "method": "hybrid",
+      "valid_scenarios": 180,
+      "planned_scenarios": 180,
+      "complete_controllers": 30,
+      "planned_controllers": 30,
+      "controllers_meeting_tracking_subset": 30,
+      "median_final_error_pct": 0.004127222315419697,
+      "median_settling_s": 0.3077276000237325
+    },
+    {
+      "method": "reference",
+      "valid_scenarios": 179,
+      "planned_scenarios": 180,
+      "complete_controllers": 29,
+      "planned_controllers": 30,
+      "controllers_meeting_tracking_subset": 25,
+      "median_final_error_pct": 0.007024201730624876,
+      "median_settling_s": 0.3367765999911353
+    }
+  ],
+  "scope": "Frozen saved-gain replay, ideal-state rotational HIL. Tracking subset excludes motor clipping and full original fitness/robustness constraints. No hardware optimization speedup measured. Incomplete controllers are not counted as performance failures. Repeated seeds share plants.",
+  "timing_summary": {
+    "max_host_ms": {
+      "median": 6.529700011014938,
+      "maximum": 19.968800013884902
+    },
+    "max_input_age_ms": {
+      "median": 5.505,
+      "maximum": 19.409
+    },
+    "max_late_ms": {
+      "median": 2.421,
+      "maximum": 3.722
+    },
+    "alignment_spread_ms": {
+      "median": 7.048949993448462,
+      "maximum": 29.315699971746547
+    },
+    "hardware_packets": {
+      "median": 1065.0,
+      "maximum": 1067.0
+    }
+  }
+}

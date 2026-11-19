@@ -1,0 +1,97 @@
+{
+  "id": "Drone_39_48002_hybrid_axis0_20",
+  "execution": "hardware",
+  "status": "recorded_requires_analysis",
+  "controller_completion": [
+    0,
+    3201,
+    2043,
+    3205
+  ],
+  "first_board_tick": 4,
+  "last_board_tick": 3196,
+  "gain_order": [
+    {
+      "name": "roll_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Kp",
+      "lower": 0.01,
+      "upper": 1.0,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Ki",
+      "lower": 0.0001,
+      "upper": 0.5,
+      "scale": "log"
+    }
+  ],
+  "gains": [
+    13.106372551910509,
+    0.0901625048520755,
+    0.006050773364581225,
+    12.58173866391514,
+    0.08645423493799455,
+    0.01186530403305104,
+    0.35279034399593123,
+    0.07973883419478875
+  ],
+  "plant": [
+    0.022925636550910535,
+    0.02379485499833842,
+    0.03976674396982585,
+    0.225,
+    1.0728611982286307e-05,
+    1.7272579833925193e-07,
+    0.0035,
+    0.0039,
+    0.0034,
+    0.0001287,
+    0.01697108427487535,
+    1148.0,
+    -141.4
+  ],
+  "drone": "Drone_39",
+  "method": "hybrid",
+  "seed": 48002,
+  "axis": 0,
+  "amplitude_rad": 0.3490658503988659,
+  "hardware_packets": 1065,
+  "max_host_interval_s": 0.0036080999998375773,
+  "source": "ideal-state HIL; no estimator in feedback",
+  "note": "Transport checks only; scientific metrics require trace analysis."
+}

@@ -1,0 +1,7 @@
+{
+  "audit_pass": true,
+  "ledger_entries_checked": 1039,
+  "selected_results_checked": 892,
+  "errors": [],
+  "note": "Structural/provenance audit only; does not establish controller quality or complete cohort coverage."
+}

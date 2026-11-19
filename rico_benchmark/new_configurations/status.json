@@ -1,0 +1,7 @@
+{
+  "stage": "AUDIT_AND_ANALYSIS_COMPLETE",
+  "references": 30,
+  "benchmark": 210,
+  "audit": "PASS",
+  "hybrid_reach": 402
+}

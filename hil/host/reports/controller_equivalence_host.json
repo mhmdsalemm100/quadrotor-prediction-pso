@@ -1,0 +1,44 @@
+{
+  "scope": "C++ host replay against frozen Python controller traces; not ARM hardware validation",
+  "passed": true,
+  "cases": [
+    {
+      "axis": 0,
+      "amplitude_deg_or_deg_s": 5,
+      "samples": 3201,
+      "max_absolute_error": 0.0
+    },
+    {
+      "axis": 0,
+      "amplitude_deg_or_deg_s": 20,
+      "samples": 3201,
+      "max_absolute_error": 0.0
+    },
+    {
+      "axis": 1,
+      "amplitude_deg_or_deg_s": 5,
+      "samples": 3201,
+      "max_absolute_error": 0.0
+    },
+    {
+      "axis": 1,
+      "amplitude_deg_or_deg_s": 20,
+      "samples": 3201,
+      "max_absolute_error": 0.0
+    },
+    {
+      "axis": 2,
+      "amplitude_deg_or_deg_s": 30,
+      "samples": 3201,
+      "max_absolute_error": 0.0
+    },
+    {
+      "axis": 2,
+      "amplitude_deg_or_deg_s": 100,
+      "samples": 3201,
+      "max_absolute_error": 0.0
+    }
+  ],
+  "source_model_sha256": "12d97aa315326c919b79b7040a178bcf5c84fc1bcf3f2e133b17ffee84104be6",
+  "controller_header_sha256": "3a8ad0afc3e905575ddd0d3f09e61cb4252199b14a69c3fb12870328fff50a36"
+}

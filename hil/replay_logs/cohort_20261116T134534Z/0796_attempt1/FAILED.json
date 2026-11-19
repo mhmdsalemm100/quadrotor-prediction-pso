@@ -1,0 +1,8 @@
+{
+  "index": 796,
+  "id": "Drone_39_48003_library_axis2_30",
+  "attempt": 1,
+  "directory": "0796_attempt1",
+  "status": "infrastructure_failure",
+  "error": "Board rejected trial: [2, 2770, 2665, 21420]"
+}

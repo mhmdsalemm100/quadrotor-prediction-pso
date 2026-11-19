@@ -1,0 +1,26 @@
+{
+  "drone": "Drone_40",
+  "seed": 48003,
+  "method": "hybrid",
+  "evaluations": 1800,
+  "gains": [
+    13.919502959347628,
+    0.13486591278789092,
+    0.00225969838573328,
+    13.41025596696755,
+    0.14171395248944235,
+    0.0014052407063563682,
+    0.40889352121144723,
+    0.09991899693391776
+  ],
+  "optimizer_seconds": 88.1925774999545,
+  "initializer_lookup_seconds": 0.0006989999674260616,
+  "tuning_seconds": 88.19327649992192,
+  "fitness": 0.05521852386962535,
+  "training_feasible": true,
+  "mean_settling_s": 0.2535,
+  "worst_settling_s": 0.313,
+  "max_overshoot_pct": 1.8958015711589615,
+  "local_passes": 60,
+  "combined_passes": 0
+}

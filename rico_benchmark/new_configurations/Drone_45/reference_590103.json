@@ -1,0 +1,26 @@
+{
+  "drone": "Drone_45",
+  "seed": 590103,
+  "method": "reference",
+  "evaluations": 3264,
+  "gains": [
+    11.727984710733141,
+    0.06058262542933658,
+    0.004463870833423028,
+    16.16562363603741,
+    0.1402101693829414,
+    0.00011369441805613844,
+    0.41695476454301783,
+    0.06031407344268538
+  ],
+  "optimizer_seconds": 27.06551199999376,
+  "initializer_lookup_seconds": 0,
+  "tuning_seconds": 27.06551199999376,
+  "fitness": 0.04406475908833465,
+  "training_feasible": true,
+  "mean_settling_s": 0.19716666666666668,
+  "worst_settling_s": 0.266,
+  "max_overshoot_pct": 1.9873310864148452,
+  "local_passes": 60,
+  "combined_passes": 0
+}

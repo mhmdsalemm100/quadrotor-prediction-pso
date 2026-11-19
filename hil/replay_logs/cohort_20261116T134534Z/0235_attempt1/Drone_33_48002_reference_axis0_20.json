@@ -1,0 +1,97 @@
+{
+  "id": "Drone_33_48002_reference_axis0_20",
+  "execution": "hardware",
+  "status": "recorded_requires_analysis",
+  "controller_completion": [
+    0,
+    3201,
+    2309,
+    6887
+  ],
+  "first_board_tick": 5,
+  "last_board_tick": 3199,
+  "gain_order": [
+    {
+      "name": "roll_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "roll_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_outer_K",
+      "lower": 1.0,
+      "upper": 30.0,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Kp_equivalent",
+      "lower": 0.005,
+      "upper": 0.35,
+      "scale": "log"
+    },
+    {
+      "name": "pitch_inner_Ki_equivalent",
+      "lower": 0.0001,
+      "upper": 1.5,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Kp",
+      "lower": 0.01,
+      "upper": 1.0,
+      "scale": "log"
+    },
+    {
+      "name": "yaw_Ki",
+      "lower": 0.0001,
+      "upper": 0.5,
+      "scale": "log"
+    }
+  ],
+  "gains": [
+    13.212019719176794,
+    0.12098308814806802,
+    0.000939746194414295,
+    13.467495789962944,
+    0.12281261799110454,
+    0.010160221451612834,
+    0.45947492243177,
+    0.0570234402142543
+  ],
+  "plant": [
+    0.021123680370073214,
+    0.021924578204009636,
+    0.03664107590259145,
+    0.225,
+    1.1955832361726148e-05,
+    1.9248349114489427e-07,
+    0.0035,
+    0.0039,
+    0.0034,
+    0.0001287,
+    0.025192736991626642,
+    1148.0,
+    -141.4
+  ],
+  "drone": "Drone_33",
+  "method": "reference",
+  "seed": 48002,
+  "axis": 0,
+  "amplitude_rad": 0.3490658503988659,
+  "hardware_packets": 1066,
+  "max_host_interval_s": 0.008441499958280474,
+  "source": "ideal-state HIL; no estimator in feedback",
+  "note": "Transport checks only; scientific metrics require trace analysis."
+}

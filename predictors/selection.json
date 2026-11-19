@@ -1,0 +1,1804 @@
+{
+  "selected": [
+    "elite_medoid__nn_regularized",
+    "elite_medoid__gp"
+  ],
+  "ranking": [
+    {
+      "name": "elite_medoid__gp",
+      "neural": false,
+      "feasible_count": 12,
+      "mean_log_ratio": 4.069384811028472,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 0.10266744958830891,
+          "feasible": true,
+          "ratio": 1.8168446839982335
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.05925147509198151,
+          "feasible": true,
+          "ratio": 1.151976629672381
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 0.054132596807086875,
+          "feasible": true,
+          "ratio": 1.1799786166780224
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.049580727900761706,
+          "feasible": true,
+          "ratio": 1.1842281098908016
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.05290900419011638,
+          "feasible": true,
+          "ratio": 1.255189291832938
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 0.04938289277915722,
+          "feasible": true,
+          "ratio": 1.0507044485332655
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 1001.9768788734333,
+          "feasible": false,
+          "ratio": 19919.34108868381
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 1005.3678456198177,
+          "feasible": false,
+          "ratio": 16432.599077903502
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1005.6488739343774,
+          "feasible": false,
+          "ratio": 19824.309968880472
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.05666115310019164,
+          "feasible": true,
+          "ratio": 1.1985714131328813
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 0.05497257483688752,
+          "feasible": true,
+          "ratio": 1.05148212631564
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 0.10609341512178216,
+          "feasible": true,
+          "ratio": 1.962983298464204
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.059475116607321035,
+          "feasible": true,
+          "ratio": 1.1881140769721819
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 1009.9815128611006,
+          "feasible": false,
+          "ratio": 17180.626669965583
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 1006.5435431396219,
+          "feasible": false,
+          "ratio": 18278.00343071248
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 0.05328813269632544,
+          "feasible": true,
+          "ratio": 1.1637732639451994
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1002.9657688246137,
+          "feasible": false,
+          "ratio": 16380.488412027042
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1005.3319352206732,
+          "feasible": false,
+          "ratio": 20026.168560827457
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 0.06263039657335347,
+          "feasible": true,
+          "ratio": 1.169341391830124
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1007.825806189192,
+          "feasible": false,
+          "ratio": 21520.113693481973
+        }
+      ]
+    },
+    {
+      "name": "elite_medoid__nn_regularized",
+      "neural": true,
+      "feasible_count": 12,
+      "mean_log_ratio": 4.195125163847971,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 0.1215640836511068,
+          "feasible": true,
+          "ratio": 2.1512471580065466
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.059205611964927095,
+          "feasible": true,
+          "ratio": 1.1510849514407697
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 1000.1673615834575,
+          "feasible": false,
+          "ratio": 21801.57925867784
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.053039452450472244,
+          "feasible": true,
+          "ratio": 1.26683921726169
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.05261126315769581,
+          "feasible": true,
+          "ratio": 1.2481258182077173
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 1000.0519212868429,
+          "feasible": false,
+          "ratio": 21277.793651323183
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 0.05722325296884843,
+          "feasible": true,
+          "ratio": 1.1376005955068675
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 0.1305991746043427,
+          "feasible": true,
+          "ratio": 2.1346255358457396
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1001.1485772186928,
+          "feasible": false,
+          "ratio": 19735.59582684138
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.05525617619863315,
+          "feasible": true,
+          "ratio": 1.168851489372376
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 0.060849505050790786,
+          "feasible": true,
+          "ratio": 1.163892489043949
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 0.06261775219965071,
+          "feasible": true,
+          "ratio": 1.1585789901681482
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.05791074878740611,
+          "feasible": true,
+          "ratio": 1.1568632357056612
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 0.1483217770997458,
+          "feasible": true,
+          "ratio": 2.5230769543076157
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 0.13194967889581932,
+          "feasible": true,
+          "ratio": 2.396097714775811
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 1001.299224241376,
+          "feasible": false,
+          "ratio": 21867.631823802607
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1001.2538486826802,
+          "feasible": false,
+          "ratio": 16352.529244407471
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1001.19730437744,
+          "feasible": false,
+          "ratio": 19943.806893697874
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 1000.7338005462703,
+          "feasible": false,
+          "ratio": 18684.20957245056
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1005.0713264413727,
+          "feasible": false,
+          "ratio": 21461.29726213497
+        }
+      ]
+    },
+    {
+      "name": "best__nn_small",
+      "neural": true,
+      "feasible_count": 11,
+      "mean_log_ratio": 4.566944835551427,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 1000.751571791936,
+          "feasible": false,
+          "ratio": 17709.70429774951
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 1000.0485251928048,
+          "feasible": false,
+          "ratio": 19443.102940003377
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 1000.4373975718332,
+          "feasible": false,
+          "ratio": 21807.465484553028
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.05747960782715681,
+          "feasible": true,
+          "ratio": 1.3728916499705666
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.04775379869808902,
+          "feasible": true,
+          "ratio": 1.1328895277409905
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 0.05151490997098016,
+          "feasible": true,
+          "ratio": 1.0960667151346914
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 0.05592343948573077,
+          "feasible": true,
+          "ratio": 1.111760250616872
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 1002.3005073500583,
+          "feasible": false,
+          "ratio": 16382.463856011465
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1003.2260306979528,
+          "feasible": false,
+          "ratio": 19776.54857166737
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.05144031606165207,
+          "feasible": true,
+          "ratio": 1.0881333848782517
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 0.06194408774072936,
+          "feasible": true,
+          "ratio": 1.184829003981805
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 0.06301915874391753,
+          "feasible": true,
+          "ratio": 1.1660059764837976
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.06239843113242492,
+          "feasible": true,
+          "ratio": 1.2465121321054717
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 1002.1248608765899,
+          "feasible": false,
+          "ratio": 17046.978476505745
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 0.10812754775875374,
+          "feasible": true,
+          "ratio": 1.9635073935543392
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 1001.3535493319637,
+          "feasible": false,
+          "ratio": 21868.818243457197
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1000.6239314184047,
+          "feasible": false,
+          "ratio": 16342.241403317847
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 0.09774743667675666,
+          "feasible": true,
+          "ratio": 1.9471247005078562
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 0.057856611611034524,
+          "feasible": true,
+          "ratio": 1.080212396046139
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1002.9541298248282,
+          "feasible": false,
+          "ratio": 21416.088743341654
+        }
+      ]
+    },
+    {
+      "name": "elite_medoid__nn_deep",
+      "neural": true,
+      "feasible_count": 11,
+      "mean_log_ratio": 4.713299195771901,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 0.06419337405142471,
+          "feasible": true,
+          "ratio": 1.1359918928630142
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.07854134761982741,
+          "feasible": true,
+          "ratio": 1.527013408198845
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 0.05282917734319134,
+          "feasible": true,
+          "ratio": 1.15156676898042
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.05598027333836246,
+          "feasible": true,
+          "ratio": 1.3370802748065536
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 1000.2703203414289,
+          "feasible": false,
+          "ratio": 23729.960793051596
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 1000.5448322641537,
+          "feasible": false,
+          "ratio": 21288.281164861673
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 0.09849145817606976,
+          "feasible": true,
+          "ratio": 1.9580141928392627
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 0.1341290377314886,
+          "feasible": true,
+          "ratio": 2.192320662879072
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1001.4506311137856,
+          "feasible": false,
+          "ratio": 19741.550201373913
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.0536681635713252,
+          "feasible": true,
+          "ratio": 1.1352597526242774
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 0.07812986527180163,
+          "feasible": true,
+          "ratio": 1.4944207563227143
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 0.0979947449082296,
+          "feasible": true,
+          "ratio": 1.813138424956034
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.08095140828766793,
+          "feasible": true,
+          "ratio": 1.6171386156721161
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 1003.6144130007084,
+          "feasible": false,
+          "ratio": 17072.316998670805
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 0.17216565376624637,
+          "feasible": true,
+          "ratio": 3.126386763531994
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 1001.3514072343095,
+          "feasible": false,
+          "ratio": 21868.771461634442
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1000.1670053643204,
+          "feasible": false,
+          "ratio": 16334.778863551557
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1002.5886412980904,
+          "feasible": false,
+          "ratio": 19971.522264832216
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 1001.7284176876261,
+          "feasible": false,
+          "ratio": 18702.779580881674
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1005.0729987654214,
+          "feasible": false,
+          "ratio": 21461.332971285738
+        }
+      ]
+    },
+    {
+      "name": "elite_medoid__extra_trees",
+      "neural": false,
+      "feasible_count": 10,
+      "mean_log_ratio": 4.995793178498781,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 1003.7807602050857,
+          "feasible": false,
+          "ratio": 17763.310040244614
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.05925238796272092,
+          "feasible": true,
+          "ratio": 1.1519943778509045
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 0.05351973822995094,
+          "feasible": true,
+          "ratio": 1.1666195676258355
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.0500743262694805,
+          "feasible": true,
+          "ratio": 1.1960176315049864
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.05170810136578415,
+          "feasible": true,
+          "ratio": 1.2266996162341044
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 0.05566017280989334,
+          "feasible": true,
+          "ratio": 1.1842641831255498
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 1002.2747209999956,
+          "feasible": false,
+          "ratio": 19925.262202269027
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 1006.4233355888246,
+          "feasible": false,
+          "ratio": 16449.850916190357
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1001.8459664648061,
+          "feasible": false,
+          "ratio": 19749.34342895406
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.057327096944684915,
+          "feasible": true,
+          "ratio": 1.212658335320117
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 0.06018569606701901,
+          "feasible": true,
+          "ratio": 1.1511955527298905
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 1002.0932615242249,
+          "feasible": false,
+          "ratio": 18541.135032910344
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.05857035796912197,
+          "feasible": true,
+          "ratio": 1.1700400228866088
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 1008.9159069903799,
+          "feasible": false,
+          "ratio": 17162.49982664316
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 1006.5974458609552,
+          "feasible": false,
+          "ratio": 18278.982259827397
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 0.05388024837416971,
+          "feasible": true,
+          "ratio": 1.1767046308400553
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1000.3416203206091,
+          "feasible": false,
+          "ratio": 16337.630683979492
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1002.7403996774786,
+          "feasible": false,
+          "ratio": 19974.545285169752
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 0.06278712988333197,
+          "feasible": true,
+          "ratio": 1.1722676825270346
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1007.8250352775557,
+          "feasible": false,
+          "ratio": 21520.097232198725
+        }
+      ]
+    },
+    {
+      "name": "best__extra_trees",
+      "neural": false,
+      "feasible_count": 10,
+      "mean_log_ratio": 5.008044007758149,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 1004.768295131786,
+          "feasible": false,
+          "ratio": 17780.785857448926
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.06175467203925831,
+          "feasible": true,
+          "ratio": 1.2006441839949291
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 0.054399979659884155,
+          "feasible": true,
+          "ratio": 1.1858070096866107
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.05417839846979576,
+          "feasible": true,
+          "ratio": 1.2940427689003584
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.052955972741388004,
+          "feasible": true,
+          "ratio": 1.2563035525057946
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 0.05546649317833415,
+          "feasible": true,
+          "ratio": 1.1801433218511894
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 1000.98948698996,
+          "feasible": false,
+          "ratio": 19899.71169789665
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 1005.038933295063,
+          "feasible": false,
+          "ratio": 16427.22305122031
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1004.1901773692157,
+          "feasible": false,
+          "ratio": 19795.554750625044
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.05734871987220629,
+          "feasible": true,
+          "ratio": 1.2131157319909813
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 0.06159915364606581,
+          "feasible": true,
+          "ratio": 1.178231313472096
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 1000.8306388871993,
+          "feasible": false,
+          "ratio": 18517.773477945793
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.06106845115482748,
+          "feasible": true,
+          "ratio": 1.219943576655508
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 1009.5488522603752,
+          "feasible": false,
+          "ratio": 17173.266752817388
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 1005.7831127292771,
+          "feasible": false,
+          "ratio": 18264.19463948449
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 0.054682673083842274,
+          "feasible": true,
+          "ratio": 1.1942289908841128
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1000.1277509190085,
+          "feasible": false,
+          "ratio": 16334.137757936052
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1005.0634743566923,
+          "feasible": false,
+          "ratio": 20020.820832056772
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 0.06315626503484977,
+          "feasible": true,
+          "ratio": 1.1791596237483182
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1008.7174673066955,
+          "feasible": false,
+          "ratio": 21539.15334151132
+        }
+      ]
+    },
+    {
+      "name": "best__gp",
+      "neural": false,
+      "feasible_count": 10,
+      "mean_log_ratio": 5.039916980826593,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 0.06409705446122424,
+          "feasible": true,
+          "ratio": 1.1342873824644182
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.058531867304002075,
+          "feasible": true,
+          "ratio": 1.13798590027711
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 1000.5749201537299,
+          "feasible": false,
+          "ratio": 21810.463192320985
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.0532756601743515,
+          "feasible": true,
+          "ratio": 1.2724810026536073
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.0532549765835356,
+          "feasible": true,
+          "ratio": 1.2633969844579815
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 0.07941836011852459,
+          "feasible": true,
+          "ratio": 1.689759744228065
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 1001.3720649206621,
+          "feasible": false,
+          "ratio": 19907.317362713216
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 1004.512047897667,
+          "feasible": false,
+          "ratio": 16418.611181909855
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1004.231432499355,
+          "feasible": false,
+          "ratio": 19796.368011106795
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.05719082986504868,
+          "feasible": true,
+          "ratio": 1.2097758343954659
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 1000.1564075755037,
+          "feasible": false,
+          "ratio": 19130.386182675767
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 1000.1823908360628,
+          "feasible": false,
+          "ratio": 18505.779330182882
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.061444655242614346,
+          "feasible": true,
+          "ratio": 1.2274588771376433
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 1008.9431211909703,
+          "feasible": false,
+          "ratio": 17162.962762859825
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 1006.9674768426083,
+          "feasible": false,
+          "ratio": 18285.70171831305
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 0.05450024487214638,
+          "feasible": true,
+          "ratio": 1.1902448941515273
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 0.07274401546022972,
+          "feasible": true,
+          "ratio": 1.188058993964507
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1003.285135304356,
+          "feasible": false,
+          "ratio": 19985.396395238728
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 0.06440333948710525,
+          "feasible": true,
+          "ratio": 1.2024431387107102
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1008.1599254528702,
+          "feasible": false,
+          "ratio": 21527.248145187197
+        }
+      ]
+    },
+    {
+      "name": "elite_medoid__nn_small",
+      "neural": true,
+      "feasible_count": 10,
+      "mean_log_ratio": 5.067262019462605,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 0.06032723191722872,
+          "feasible": true,
+          "ratio": 1.067575079040696
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.05724621592753916,
+          "feasible": true,
+          "ratio": 1.1129900611474977
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 1000.4392257292886,
+          "feasible": false,
+          "ratio": 21807.50533460332
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.055505684057773674,
+          "feasible": true,
+          "ratio": 1.3257447823577333
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 1000.626411248521,
+          "feasible": false,
+          "ratio": 23738.40853271978
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 0.04880686867997822,
+          "feasible": true,
+          "ratio": 1.0384485629540963
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 0.08213550970302005,
+          "feasible": true,
+          "ratio": 1.6328572722225663
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 1000.3441793066803,
+          "feasible": false,
+          "ratio": 16350.487943372375
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1003.0233976723852,
+          "feasible": false,
+          "ratio": 19772.554076160137
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.05500000656413458,
+          "feasible": true,
+          "ratio": 1.1634326515262814
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 0.06066889597614094,
+          "feasible": true,
+          "ratio": 1.1604379080204439
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 0.06319373644919894,
+          "feasible": true,
+          "ratio": 1.1692360838317255
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.05433303511615978,
+          "feasible": true,
+          "ratio": 1.0853924724913802
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 1002.0467713565437,
+          "feasible": false,
+          "ratio": 17045.650108734982
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 0.15212289186655042,
+          "feasible": true,
+          "ratio": 2.7624266812677942
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 1001.3526769867864,
+          "feasible": false,
+          "ratio": 21868.79919208604
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1002.3393420958745,
+          "feasible": false,
+          "ratio": 16370.257578542942
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1000.4742101641601,
+          "feasible": false,
+          "ratio": 19929.40288832096
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 1000.9224820182649,
+          "feasible": false,
+          "ratio": 18687.732351598483
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1005.0734670137253,
+          "feasible": false,
+          "ratio": 21461.34296979607
+        }
+      ]
+    },
+    {
+      "name": "elite_medoid__ridge",
+      "neural": false,
+      "feasible_count": 10,
+      "mean_log_ratio": 5.197926701030193,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 0.13017401631638711,
+          "feasible": true,
+          "ratio": 2.3036120064100527
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.05912985070531571,
+          "feasible": true,
+          "ratio": 1.1496119889470702
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 1000.3785055047732,
+          "feasible": false,
+          "ratio": 21806.181759331597
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.05522322999275156,
+          "feasible": true,
+          "ratio": 1.3189984101741379
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.05223369574017536,
+          "feasible": true,
+          "ratio": 1.2391685795170444
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 1000.5519139078546,
+          "feasible": false,
+          "ratio": 21288.43183879187
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 1000.3415911583965,
+          "feasible": false,
+          "ratio": 19886.831502424116
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 0.12771676833056134,
+          "feasible": true,
+          "ratio": 2.0875130019776194
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 0.08812441040050464,
+          "feasible": true,
+          "ratio": 1.7371924464745505
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.05544167360512471,
+          "feasible": true,
+          "ratio": 1.1727753750765362
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 1000.3718936887515,
+          "feasible": false,
+          "ratio": 19134.507870575988
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 1000.1246938181645,
+          "feasible": false,
+          "ratio": 18504.711796609987
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.05756252538893257,
+          "feasible": true,
+          "ratio": 1.1499068958906573
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 0.19231001634624334,
+          "feasible": true,
+          "ratio": 3.2713535383237997
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 0.120036239760889,
+          "feasible": true,
+          "ratio": 2.1797594521502117
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 1000.9724608769334,
+          "feasible": false,
+          "ratio": 21860.495554469577
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1001.731734622013,
+          "feasible": false,
+          "ratio": 16360.334102095372
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1001.1727817857038,
+          "feasible": false,
+          "ratio": 19943.31840473373
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 1000.9822024897533,
+          "feasible": false,
+          "ratio": 18688.84736320741
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1002.5637244561184,
+          "feasible": false,
+          "ratio": 21407.752413918864
+        }
+      ]
+    },
+    {
+      "name": "best__ridge",
+      "neural": false,
+      "feasible_count": 10,
+      "mean_log_ratio": 5.219303073443365,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 0.1352861661054813,
+          "feasible": true,
+          "ratio": 2.394078675304262
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.05610564145751595,
+          "feasible": true,
+          "ratio": 1.0908148303734455
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 1000.4028094862275,
+          "feasible": false,
+          "ratio": 21806.711535845337
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.05483241834223385,
+          "feasible": true,
+          "ratio": 1.309663933618202
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.05310579620723134,
+          "feasible": true,
+          "ratio": 1.2598578966646095
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 1000.4969796799115,
+          "feasible": false,
+          "ratio": 21287.263020311864
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 1000.3140469307613,
+          "feasible": false,
+          "ratio": 19886.283922058883
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 0.14405319029171754,
+          "feasible": true,
+          "ratio": 2.3545295707138476
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 0.11216085837920221,
+          "feasible": true,
+          "ratio": 2.2110218392489367
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.05508299770851158,
+          "feasible": true,
+          "ratio": 1.1651881896286838
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 1000.3762227389012,
+          "feasible": false,
+          "ratio": 19134.59067402607
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 1000.1376103933584,
+          "feasible": false,
+          "ratio": 18504.95078431106
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.06619964578407143,
+          "feasible": true,
+          "ratio": 1.3224476980167155
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 0.19581419835073818,
+          "feasible": true,
+          "ratio": 3.3309625925848922
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 0.1106845697479161,
+          "feasible": true,
+          "ratio": 2.009940811173346
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 1001.0284642091267,
+          "feasible": false,
+          "ratio": 21861.718625675127
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1001.720046449505,
+          "feasible": false,
+          "ratio": 16360.143210262095
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1001.259081308646,
+          "feasible": false,
+          "ratio": 19945.037487489
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 1000.9376086941677,
+          "feasible": false,
+          "ratio": 18688.014774339223
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1002.7566521848071,
+          "feasible": false,
+          "ratio": 21411.872001481028
+        }
+      ]
+    },
+    {
+      "name": "best__nn_deep",
+      "neural": true,
+      "feasible_count": 9,
+      "mean_log_ratio": 5.542665390062623,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 0.10163463927141533,
+          "feasible": true,
+          "ratio": 1.798567655189676
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.05710534640855368,
+          "feasible": true,
+          "ratio": 1.1102512534899238
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 1000.439279855808,
+          "feasible": false,
+          "ratio": 21807.506514449462
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.05864798445964426,
+          "feasible": true,
+          "ratio": 1.400798147307608
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 1001.4815064220868,
+          "feasible": false,
+          "ratio": 23758.694423973775
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 0.05137598529111723,
+          "feasible": true,
+          "ratio": 1.0931108579354014
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 0.05303423105181106,
+          "feasible": true,
+          "ratio": 1.054322669486002
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 1003.1129371760896,
+          "feasible": false,
+          "ratio": 16395.74290971133
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1004.5539803100029,
+          "feasible": false,
+          "ratio": 19802.726381253477
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.05476593025815871,
+          "feasible": true,
+          "ratio": 1.1584811608932133
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 0.08788610761553992,
+          "feasible": true,
+          "ratio": 1.6810322525985077
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 1000.0884075728081,
+          "feasible": false,
+          "ratio": 18504.040413814768
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.06303992049392601,
+          "feasible": true,
+          "ratio": 1.2593269458310077
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 1003.3969326371143,
+          "feasible": false,
+          "ratio": 17068.617476563344
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 0.06391535553423115,
+          "feasible": true,
+          "ratio": 1.1606503222760556
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 1000.0342678915549,
+          "feasible": false,
+          "ratio": 21840.006116060722
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1001.0144267039018,
+          "feasible": false,
+          "ratio": 16348.61899236212
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1001.3113162089326,
+          "feasible": false,
+          "ratio": 19946.078004437928
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 1001.7142559986881,
+          "feasible": false,
+          "ratio": 18702.515174938882
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1002.3365680945004,
+          "feasible": false,
+          "ratio": 21402.90194204347
+        }
+      ]
+    },
+    {
+      "name": "best__nn_regularized",
+      "neural": true,
+      "feasible_count": 9,
+      "mean_log_ratio": 5.583452726667457,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 0.1304330344749548,
+          "feasible": true,
+          "ratio": 2.308195696433909
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.05616485715291073,
+          "feasible": true,
+          "ratio": 1.0919661113685377
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 1000.4378210546939,
+          "feasible": false,
+          "ratio": 21807.474715603257
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.058415740985668166,
+          "feasible": true,
+          "ratio": 1.395251047418884
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.053588443017203044,
+          "feasible": true,
+          "ratio": 1.271307991348625
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 0.05225533885043596,
+          "feasible": true,
+          "ratio": 1.1118205900837723
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 1000.0911003598416,
+          "feasible": false,
+          "ratio": 19881.851735164815
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 1001.4118531448713,
+          "feasible": false,
+          "ratio": 16367.938925324303
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1000.8385312067759,
+          "feasible": false,
+          "ratio": 19729.48390407771
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.05488244037506196,
+          "feasible": true,
+          "ratio": 1.1609457364943148
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 1000.3033672275444,
+          "feasible": false,
+          "ratio": 19133.197137917883
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 0.06250971900145565,
+          "feasible": true,
+          "ratio": 1.1565801162183074
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.062382217372669746,
+          "feasible": true,
+          "ratio": 1.246188235368405
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 0.15975241528672937,
+          "feasible": true,
+          "ratio": 2.717521629570721
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 1000.4569404392646,
+          "feasible": false,
+          "ratio": 18167.47572846177
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 1001.0729627601934,
+          "feasible": false,
+          "ratio": 21862.69044100052
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 1002.0956423320388,
+          "feasible": false,
+          "ratio": 16366.277461492484
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 1000.6500182769041,
+          "feasible": false,
+          "ratio": 19932.904978304203
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 1000.0993681891432,
+          "feasible": false,
+          "ratio": 18672.36439732643
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1004.5086324276988,
+          "feasible": false,
+          "ratio": 21449.282051694296
+        }
+      ]
+    },
+    {
+      "name": "elite_medoid__quadratic_ridge",
+      "neural": false,
+      "feasible_count": 8,
+      "mean_log_ratio": 6.024103655831785,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 1000.9008100966035,
+          "feasible": false,
+          "ratio": 17712.345279107976
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.056353741584854074,
+          "feasible": true,
+          "ratio": 1.0956384326224793
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 1000.1314551117447,
+          "feasible": false,
+          "ratio": 21800.796571880597
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.051078596068767516,
+          "feasible": true,
+          "ratio": 1.2200044622068367
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.04914116163252847,
+          "feasible": true,
+          "ratio": 1.1658026986813654
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 1000.436538120738,
+          "feasible": false,
+          "ratio": 21285.977024058386
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 1001.1820540984312,
+          "feasible": false,
+          "ratio": 19903.539939842125
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 1001.0549685317366,
+          "feasible": false,
+          "ratio": 16362.105695437085
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1000.5569243463851,
+          "feasible": false,
+          "ratio": 19723.932600999226
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.058271015341804316,
+          "feasible": true,
+          "ratio": 1.2326253417295523
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 1000.1075361473313,
+          "feasible": false,
+          "ratio": 19129.451399588685
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 1000.210573288059,
+          "feasible": false,
+          "ratio": 18506.300773314055
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.05857241500055945,
+          "feasible": true,
+          "ratio": 1.1700811155005801
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 1002.3704911443031,
+          "feasible": false,
+          "ratio": 17051.15685192617
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 1008.9357732538309,
+          "feasible": false,
+          "ratio": 18321.444363330436
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 1001.3521336605528,
+          "feasible": false,
+          "ratio": 21868.78732624439
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 0.07136953632077472,
+          "feasible": true,
+          "ratio": 1.1656109301160262
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 0.12675717218291704,
+          "feasible": true,
+          "ratio": 2.5249973739983966
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 0.06270849981735621,
+          "feasible": true,
+          "ratio": 1.1707996191613474
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1000.1775132068115,
+          "feasible": false,
+          "ratio": 21356.79962320206
+        }
+      ]
+    },
+    {
+      "name": "best__quadratic_ridge",
+      "neural": false,
+      "feasible_count": 8,
+      "mean_log_ratio": 6.0675395729668855,
+      "rows": [
+        {
+          "drone": "Drone_01",
+          "fitness": 1001.0223906729959,
+          "feasible": false,
+          "ratio": 17714.4968181282
+        },
+        {
+          "drone": "Drone_02",
+          "fitness": 0.05981088319958785,
+          "feasible": true,
+          "ratio": 1.1628527313291137
+        },
+        {
+          "drone": "Drone_03",
+          "fitness": 1000.0819748477204,
+          "feasible": false,
+          "ratio": 21799.718004493476
+        },
+        {
+          "drone": "Drone_04",
+          "fitness": 0.056162794765718296,
+          "feasible": true,
+          "ratio": 1.3414397712093655
+        },
+        {
+          "drone": "Drone_05",
+          "fitness": 0.046373438655565084,
+          "feasible": true,
+          "ratio": 1.10014249024196
+        },
+        {
+          "drone": "Drone_06",
+          "fitness": 1000.2390560674114,
+          "feasible": false,
+          "ratio": 21281.77525983887
+        },
+        {
+          "drone": "Drone_07",
+          "fitness": 1001.1379245939507,
+          "feasible": false,
+          "ratio": 19902.662643498912
+        },
+        {
+          "drone": "Drone_08",
+          "fitness": 1001.0231327932984,
+          "feasible": false,
+          "ratio": 16361.58534467355
+        },
+        {
+          "drone": "Drone_09",
+          "fitness": 1000.5120290104463,
+          "feasible": false,
+          "ratio": 19723.04758130808
+        },
+        {
+          "drone": "Drone_10",
+          "fitness": 0.06289068814662586,
+          "feasible": true,
+          "ratio": 1.330346751530296
+        },
+        {
+          "drone": "Drone_11",
+          "fitness": 1000.1732436529803,
+          "feasible": false,
+          "ratio": 19130.708212971716
+        },
+        {
+          "drone": "Drone_12",
+          "fitness": 1000.2620421972188,
+          "feasible": false,
+          "ratio": 18507.2530718988
+        },
+        {
+          "drone": "Drone_13",
+          "fitness": 0.05909352481092112,
+          "feasible": true,
+          "ratio": 1.1804911480765028
+        },
+        {
+          "drone": "Drone_14",
+          "fitness": 1002.2333749641716,
+          "feasible": false,
+          "ratio": 17048.824391508577
+        },
+        {
+          "drone": "Drone_15",
+          "fitness": 1008.9377712388434,
+          "feasible": false,
+          "ratio": 18321.480645096053
+        },
+        {
+          "drone": "Drone_16",
+          "fitness": 1001.3549428240135,
+          "feasible": false,
+          "ratio": 21868.848676289217
+        },
+        {
+          "drone": "Drone_17",
+          "fitness": 0.11758836806661212,
+          "feasible": true,
+          "ratio": 1.9204592622952543
+        },
+        {
+          "drone": "Drone_18",
+          "fitness": 0.1527435357793365,
+          "feasible": true,
+          "ratio": 3.0426446101330127
+        },
+        {
+          "drone": "Drone_19",
+          "fitness": 0.06278149477009158,
+          "feasible": true,
+          "ratio": 1.17216247209376
+        },
+        {
+          "drone": "Drone_20",
+          "fitness": 1000.5790008922419,
+          "feasible": false,
+          "ratio": 21365.372593435543
+        }
+      ]
+    }
+  ],
+  "rule": "Highest held-out training feasibility, then lowest mean log fitness ratio; best NN plus strongest remaining model",
+  "prediction_sha256": "703ca186aaee6f8eee7318dadefb36d562b200102f718eee240610e03e9702f6",
+  "train_sha256": "f7f1e943a8817a6eef6037a822866698497065f2d595a7628b21ba26301449a4",
+  "experiment_sha256": "91ca368ef9ad7bfc239bcd859a17b7483fb25da542a14d3e77fc01bb09773401"
+}

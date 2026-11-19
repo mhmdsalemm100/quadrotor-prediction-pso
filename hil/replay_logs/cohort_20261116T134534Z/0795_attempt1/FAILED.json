@@ -1,0 +1,8 @@
+{
+  "index": 795,
+  "id": "Drone_39_48003_library_axis1_20",
+  "attempt": 1,
+  "directory": "0795_attempt1",
+  "status": "infrastructure_failure",
+  "error": "ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))"
+}
